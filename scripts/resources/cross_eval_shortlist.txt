@@ -1,0 +1,17 @@
+a word first letter
+a word last letter
+adjective comparative
+adjective antonym
+adverb antonym
+computing concept antonym
+noun antonym
+preposition antonym
+complementary colors
+characteristic gender
+univ degree gender
+occupation gender
+city in country
+food from country
+landmark in country
+name birthplace
+primary language spoken in a country

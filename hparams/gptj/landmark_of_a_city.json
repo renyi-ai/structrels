@@ -1,0 +1,9 @@
+{
+    "model_name": "gptj",
+    "relation_name": "landmark of a city",
+    "h_layer": 6,
+    "beta": 2.4166666666666665,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 9
+}

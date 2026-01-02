@@ -1,0 +1,115 @@
+{
+    "name": "noun antonym",
+    "prompt_templates": [
+      "The opposite of the noun {} is"
+    ],
+    "prompt_templates_zs": [
+      "The opposite of {} is",
+      "The antonym of {} is"
+    ],
+    "properties": {
+      "relation_type": "linguistic",
+      "domain_name": "noun",
+      "range_name": "noun",
+      "symmetric": true
+    },
+    "samples": [
+      {
+        "subject": "entrance",
+        "object": "exit"
+      },
+      {
+        "subject": "arrival",
+        "object": "departure"
+      },
+      {
+        "subject": "buyer",
+        "object": "seller"
+      },
+      {
+        "subject": "friend",
+        "object": "enemy"
+      },
+      {
+        "subject": "success",
+        "object": "failure"
+      },
+      {
+        "subject": "victory",
+        "object": "defeat"
+      },
+      {
+        "subject": "creation",
+        "object": "destruction"
+      },
+      {
+        "subject": "truth",
+        "object": "falsehood"
+      },
+      {
+        "subject": "peace",
+        "object": "war"
+      },
+      {
+        "subject": "presence",
+        "object": "absence"
+      },
+      {
+        "subject": "gain",
+        "object": "loss"
+      },
+      {
+        "subject": "producer",
+        "object": "consumer"
+      },
+      {
+        "subject": "health",
+        "object": "illness"
+      },
+      {
+        "subject": "victim",
+        "object": "perpetrator"
+      },
+      {
+        "subject": "beginning",
+        "object": "end"
+      },
+      {
+        "subject": "day",
+        "object": "night"
+      },
+      {
+        "subject": "morning",
+        "object": "evening"
+      },
+      {
+        "subject": "life",
+        "object": "death"
+      },
+      {
+        "subject": "east",
+        "object": "west"
+      },
+      {
+        "subject": "north",
+        "object": "south"
+      },
+      {
+        "subject": "summer",
+        "object": "winter"
+      },
+      {
+        "subject": "light",
+        "object": "darkness"
+      },
+      {
+        "subject": "increase",
+        "object": "decrease"
+      },
+      {
+        "subject": "question",
+        "object": "answer"
+      }
+    ]
+  }
+  

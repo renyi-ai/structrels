@@ -1,0 +1,48 @@
+{
+    "name": "adverb antonym",
+    "prompt_templates": [
+      "The opposite of the adverb {} is"
+    ],
+    "prompt_templates_zs": [
+      "The opposite of {} is",
+      "The antonym of {} is"
+    ],
+    "properties": {
+      "relation_type": "linguistic",
+      "domain_name": "adverb",
+      "range_name": "adverb",
+      "symmetric": true
+    },
+    "samples": [
+      { "subject": "quickly",      "object": "slowly" },
+      { "subject": "always",       "object": "never" },
+      { "subject": "here",         "object": "there" },
+      { "subject": "now",          "object": "later" },
+      { "subject": "well",         "object": "poorly" },
+      { "subject": "seldom",       "object": "often" },
+      { "subject": "rarely",       "object": "frequently" },
+      { "subject": "inside",       "object": "outside" },
+      { "subject": "everywhere",   "object": "nowhere" },
+      { "subject": "early",        "object": "late" },
+      { "subject": "upstairs",     "object": "downstairs" },
+      { "subject": "forward",      "object": "backward" },
+      { "subject": "loudly",       "object": "quietly" },
+      { "subject": "bravely",      "object": "cowardly" },
+      { "subject": "carefully",    "object": "carelessly" },
+      { "subject": "directly",     "object": "indirectly" },
+      { "subject": "completely",   "object": "partially" },
+      { "subject": "patiently",    "object": "impatiently" },
+      { "subject": "smoothly",     "object": "roughly" },
+      { "subject": "gently",       "object": "harshly" },
+      { "subject": "artificially", "object": "naturally" },
+      { "subject": "randomly",     "object": "systematically" },
+      { "subject": "publicly",     "object": "privately" },
+      { "subject": "legally",      "object": "illegally" },
+      { "subject": "safely",       "object": "unsafely" },
+      { "subject": "securely",     "object": "insecurely" },
+      { "subject": "equally",      "object": "unequally" },
+      { "subject": "suddenly",     "object": "gradually" },
+      { "subject": "separately",   "object": "together" },
+      { "subject": "cheerfully",   "object": "sadly" }
+    ]
+  }

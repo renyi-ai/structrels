@@ -1,0 +1,9 @@
+{
+    "model_name": "gptj",
+    "relation_name": "national park in country",
+    "h_layer": 0,
+    "beta": 2.8333333333333335,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 9
+}

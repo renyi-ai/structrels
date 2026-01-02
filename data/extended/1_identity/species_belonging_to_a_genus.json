@@ -1,0 +1,181 @@
+{
+  "name": "species belonging to a genus",
+  "prompt_templates": [
+    "What genus does the species {} belong to?",
+    "Can you tell me the genus of the species {}?",
+    "Which genus is associated with the species {}?"
+  ],
+  "prompt_templates_zs": [
+    "What genus does the species {} belong to?",
+    "Identify the genus that the species {} is classified under.",
+    "Determine the genus associated with the species {}."
+  ],
+  "properties": {
+    "relation_type": "scientificrelations",
+    "domain_name": "species",
+    "range_name": "Genus Name",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Panthera leo",
+      "object": "Panthera"
+    },
+    {
+      "subject": "Panthera tigris",
+      "object": "Panthera"
+    },
+    {
+      "subject": "Panthera onca",
+      "object": "Panthera"
+    },
+    {
+      "subject": "Panthera pardus",
+      "object": "Panthera"
+    },
+    {
+      "subject": "Panthera uncia",
+      "object": "Panthera"
+    },
+    {
+      "subject": "Canis lupus",
+      "object": "Canis"
+    },
+    {
+      "subject": "Canis latrans",
+      "object": "Canis"
+    },
+    {
+      "subject": "Canis aureus",
+      "object": "Canis"
+    },
+    {
+      "subject": "Canis simensis",
+      "object": "Canis"
+    },
+    {
+      "subject": "Felis catus",
+      "object": "Felis"
+    },
+    {
+      "subject": "Felis silvestris",
+      "object": "Felis"
+    },
+    {
+      "subject": "Equus caballus",
+      "object": "Equus"
+    },
+    {
+      "subject": "Equus zebra",
+      "object": "Equus"
+    },
+    {
+      "subject": "Equus asinus",
+      "object": "Equus"
+    },
+    {
+      "subject": "Bos taurus",
+      "object": "Bos"
+    },
+    {
+      "subject": "Bos indicus",
+      "object": "Bos"
+    },
+    {
+      "subject": "Ovis aries",
+      "object": "Ovis"
+    },
+    {
+      "subject": "Capra hircus",
+      "object": "Capra"
+    },
+    {
+      "subject": "Sus scrofa",
+      "object": "Sus"
+    },
+    {
+      "subject": "Gallus gallus",
+      "object": "Gallus"
+    },
+    {
+      "subject": "Anas platyrhynchos",
+      "object": "Anas"
+    },
+    {
+      "subject": "Pica pica",
+      "object": "Pica"
+    },
+    {
+      "subject": "Corvus corax",
+      "object": "Corvus"
+    },
+    {
+      "subject": "Passer domesticus",
+      "object": "Passer"
+    },
+    {
+      "subject": "Turdus migratorius",
+      "object": "Turdus"
+    },
+    {
+      "subject": "Anolis carolinensis",
+      "object": "Anolis"
+    },
+    {
+      "subject": "Python regius",
+      "object": "Python"
+    },
+    {
+      "subject": "Varanus komodoensis",
+      "object": "Varanus"
+    },
+    {
+      "subject": "Crocodylus niloticus",
+      "object": "Crocodylus"
+    },
+    {
+      "subject": "Loxodonta africana",
+      "object": "Loxodonta"
+    },
+    {
+      "subject": "Rattus norvegicus",
+      "object": "Rattus"
+    },
+    {
+      "subject": "Mus musculus",
+      "object": "Mus"
+    },
+    {
+      "subject": "Homo sapiens",
+      "object": "Homo"
+    },
+    {
+      "subject": "Gorilla gorilla",
+      "object": "Gorilla"
+    },
+    {
+      "subject": "Pongo abelii",
+      "object": "Pongo"
+    },
+    {
+      "subject": "Pan troglodytes",
+      "object": "Pan"
+    },
+    {
+      "subject": "Macaca mulatta",
+      "object": "Macaca"
+    },
+    {
+      "subject": "Carcharodon carcharias",
+      "object": "Carcharodon"
+    },
+    {
+      "subject": "Sphyrna lewini",
+      "object": "Sphyrna"
+    },
+    {
+      "subject": "Thunnus thynnus",
+      "object": "Thunnus"
+    }
+  ]
+}

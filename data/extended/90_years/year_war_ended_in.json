@@ -1,0 +1,44 @@
+{
+    "name": "year war ended in",
+    "prompt_templates": [
+      "{} ended in"
+    ],
+    "prompt_templates_zs": [
+      "In what year did {} end? It concluded in",
+      "When did the war {} finish? It was in",
+      "The war {} ended in the year"
+    ],
+    "properties": {
+      "relation_type": "historical",
+      "domain_name": "war",
+      "range_name": "year",
+      "symmetric": false
+    },
+    "samples": [
+      { "subject": "World War I",                        "object": "1918" },
+      { "subject": "World War II",                       "object": "1945" },
+      { "subject": "American Civil War",                 "object": "1865" },
+      { "subject": "Napoleonic Wars",                    "object": "1815" },
+      { "subject": "Korean War",                         "object": "1953" },
+      { "subject": "Vietnam War",                        "object": "1975" },
+      { "subject": "Gulf War",                           "object": "1991" },
+      { "subject": "Six-Day War",                        "object": "1967" },
+      { "subject": "War of 1812",                        "object": "1815" },
+      { "subject": "Spanish–American War",               "object": "1898" },
+      { "subject": "Crimean War",                        "object": "1856" },
+      { "subject": "Thirty Years' War",                  "object": "1648" },
+      { "subject": "Hundred Years' War",                  "object": "1453" },
+      { "subject": "Seven Years' War",                   "object": "1763" },
+      { "subject": "Mexican–American War",               "object": "1848" },
+      { "subject": "Falklands War",                      "object": "1982" },
+      { "subject": "Sino–Japanese War",                  "object": "1895" },
+      { "subject": "Iran–Iraq War",                      "object": "1988" },
+      { "subject": "Boer War",                           "object": "1902" },
+      { "subject": "Great Northern War",                 "object": "1721" },
+      { "subject": "American Revolutionary War",         "object": "1783" },
+      { "subject": "Russian Civil War",                  "object": "1923" },
+      { "subject": "Spanish Civil War",                  "object": "1939" },
+      { "subject": "Cambodian Civil War",                "object": "1975" },
+      { "subject": "Persian Gulf War",                   "object": "1991" }
+    ]
+  }

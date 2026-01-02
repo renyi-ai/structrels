@@ -1,0 +1,45 @@
+{
+    "name": "year of coup",
+    "prompt_templates": [
+      "The coup {} occurred in"
+    ],
+    "prompt_templates_zs": [
+      "In what year did the coup {} occur? It was in",
+      "What year saw the {} coup? It took place in",
+      "The coup {} happened in the year"
+    ],
+    "properties": {
+      "relation_type": "historical",
+      "domain_name": "coup",
+      "range_name": "year",
+      "symmetric": false
+    },
+    "samples": [
+      { "subject": "Iranian coup d'état",              "object": "1953" },
+      { "subject": "Chilean coup d'état",              "object": "1973" },
+      { "subject": "Carnation Revolution",             "object": "1974" },
+      { "subject": "Greek coup d'état",                "object": "1967" },
+      { "subject": "Burmese coup d'état",              "object": "2021" },
+      { "subject": "Thai coup d'état",                 "object": "2014" },
+      { "subject": "Sudanese coup",                    "object": "2019" },
+      { "subject": "Zimbabwe coup",                    "object": "2017" },
+      { "subject": "Honduran coup",                    "object": "2009" },
+      { "subject": "Ghanaian coup d'état",             "object": "1966" },
+      { "subject": "Ugandan coup d'état",              "object": "1971" },
+      { "subject": "Cambodian coup",                   "object": "1970" },
+      { "subject": "South Vietnamese coup",            "object": "1963" },
+      { "subject": "Czechoslovak coup d'état",         "object": "1948" },
+      { "subject": "Saur Revolution",                  "object": "1978" },
+      { "subject": "Mauritanian coup",                 "object": "2008" },
+      { "subject": "Guinean coup",                     "object": "2021" },
+      { "subject": "Burkinabé coup",                   "object": "2022" },
+      { "subject": "Niger coup",                       "object": "2023" },
+      { "subject": "Gabon coup",                       "object": "2023" },
+      { "subject": "Malian coup",                      "object": "2021" },
+      { "subject": "Panamanian coup",                  "object": "1968" },
+      { "subject": "Spanish coup of July 1936",        "object": "1936" },
+      { "subject": "Bolivian coup d'état",             "object": "1971" },
+      { "subject": "Peruvian coup d'état",             "object": "1968" },
+      { "subject": "Indonesian coup attempt",          "object": "1965" }
+    ]
+  }

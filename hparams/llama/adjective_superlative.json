@@ -1,0 +1,9 @@
+{
+    "model_name": "llama",
+    "relation_name": "adjective superlative",
+    "h_layer": 19,
+    "beta": 7.0,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 5
+}

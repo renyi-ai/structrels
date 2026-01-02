@@ -1,0 +1,25 @@
+{
+    "name": "color mixing with blue",
+    "prompt_templates": [
+      "What color do you get when you mix blue and {}?"
+    ],
+    "prompt_templates_zs": [
+      "Mix blue with {} yields",
+      "Mixing {} with blue to get"
+    ],
+    "properties": {
+      "relation_type": "conceptual",
+      "domain_name": "color",
+      "range_name": "color",
+      "symmetric": true
+    },
+    "samples": [
+      { "subject": "red",      "object": "purple" },
+      { "subject": "yellow",   "object": "green" },
+      { "subject": "white",    "object": "light blue" },
+      { "subject": "black",    "object": "dark blue" },
+      { "subject": "green",    "object": "cyan" },
+      { "subject": "orange",   "object": "brown" }
+    ]
+  }
+  

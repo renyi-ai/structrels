@@ -1,0 +1,48 @@
+{
+    "name": "computing concept antonym",
+    "prompt_templates": [
+      "The opposite of the computing concept {} is"
+    ],
+    "prompt_templates_zs": [
+      "The opposite of {} is",
+      "The antonym of {} is"
+    ],
+    "properties": {
+      "relation_type": "conceptual",
+      "domain_name": "computing concept",
+      "range_name": "computing concept",
+      "symmetric": true
+    },
+    "samples": [
+      { "subject": "input", "object": "output" },
+      { "subject": "upload", "object": "download" },
+      { "subject": "save", "object": "delete" },
+      { "subject": "encrypt", "object": "decrypt" },
+      { "subject": "encode", "object": "decode" },
+      { "subject": "compile", "object": "decompile" },
+      { "subject": "compress", "object": "decompress" },
+      { "subject": "install", "object": "uninstall" },
+      { "subject": "mount", "object": "unmount" },
+      { "subject": "connect", "object": "disconnect" },
+      { "subject": "lock", "object": "unlock" },
+      { "subject": "allocate", "object": "deallocate" },
+      { "subject": "start", "object": "stop" },
+      { "subject": "enable", "object": "disable" },
+      { "subject": "import", "object": "export" },
+      { "subject": "serialize", "object": "deserialize" },
+      { "subject": "attach", "object": "detach" },
+      { "subject": "add", "object": "remove" },
+      { "subject": "grant", "object": "revoke" },
+      { "subject": "send", "object": "receive" },
+      { "subject": "push", "object": "pull" },
+      { "subject": "backup", "object": "restore" },
+      { "subject": "login", "object": "logout" },
+      { "subject": "subscribe", "object": "unsubscribe" },
+      { "subject": "pack", "object": "unpack" },
+      { "subject": "archive", "object": "unarchive" },
+      { "subject": "show", "object": "hide" },
+      { "subject": "expand", "object": "collapse" },
+      { "subject": "load", "object": "unload" },
+      { "subject": "increment", "object": "decrement" }
+    ]
+  }

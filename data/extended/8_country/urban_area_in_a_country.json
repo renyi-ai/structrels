@@ -1,0 +1,181 @@
+{
+  "name": "urban area in a country",
+  "prompt_templates": [
+    "In which country is the urban area {} located?",
+    "What country does the urban area {} belong to?",
+    "Please provide the country where the urban area {} is situated."
+  ],
+  "prompt_templates_zs": [
+    "What country is {} located in?",
+    "In which country can you find the urban area {}?",
+    "Which country is associated with the city {}?"
+  ],
+  "properties": {
+    "relation_type": "demographicandsocialrelations",
+    "domain_name": "a country",
+    "range_name": "urban area",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "New York City",
+      "object": "United States"
+    },
+    {
+      "subject": "Los Angeles",
+      "object": "United States"
+    },
+    {
+      "subject": "Chicago",
+      "object": "United States"
+    },
+    {
+      "subject": "Houston",
+      "object": "United States"
+    },
+    {
+      "subject": "Phoenix",
+      "object": "United States"
+    },
+    {
+      "subject": "London",
+      "object": "United Kingdom"
+    },
+    {
+      "subject": "Manchester",
+      "object": "United Kingdom"
+    },
+    {
+      "subject": "Birmingham",
+      "object": "United Kingdom"
+    },
+    {
+      "subject": "Paris",
+      "object": "France"
+    },
+    {
+      "subject": "Marseille",
+      "object": "France"
+    },
+    {
+      "subject": "Lyon",
+      "object": "France"
+    },
+    {
+      "subject": "Berlin",
+      "object": "Germany"
+    },
+    {
+      "subject": "Munich",
+      "object": "Germany"
+    },
+    {
+      "subject": "Frankfurt",
+      "object": "Germany"
+    },
+    {
+      "subject": "Rome",
+      "object": "Italy"
+    },
+    {
+      "subject": "Milan",
+      "object": "Italy"
+    },
+    {
+      "subject": "Naples",
+      "object": "Italy"
+    },
+    {
+      "subject": "Madrid",
+      "object": "Spain"
+    },
+    {
+      "subject": "Barcelona",
+      "object": "Spain"
+    },
+    {
+      "subject": "Valencia",
+      "object": "Spain"
+    },
+    {
+      "subject": "Tokyo",
+      "object": "Japan"
+    },
+    {
+      "subject": "Osaka",
+      "object": "Japan"
+    },
+    {
+      "subject": "Kyoto",
+      "object": "Japan"
+    },
+    {
+      "subject": "Beijing",
+      "object": "China"
+    },
+    {
+      "subject": "Shanghai",
+      "object": "China"
+    },
+    {
+      "subject": "Guangzhou",
+      "object": "China"
+    },
+    {
+      "subject": "Mumbai",
+      "object": "India"
+    },
+    {
+      "subject": "Delhi",
+      "object": "India"
+    },
+    {
+      "subject": "Bangalore",
+      "object": "India"
+    },
+    {
+      "subject": "São Paulo",
+      "object": "Brazil"
+    },
+    {
+      "subject": "Rio de Janeiro",
+      "object": "Brazil"
+    },
+    {
+      "subject": "Buenos Aires",
+      "object": "Argentina"
+    },
+    {
+      "subject": "Toronto",
+      "object": "Canada"
+    },
+    {
+      "subject": "Vancouver",
+      "object": "Canada"
+    },
+    {
+      "subject": "Sydney",
+      "object": "Australia"
+    },
+    {
+      "subject": "Melbourne",
+      "object": "Australia"
+    },
+    {
+      "subject": "Cape Town",
+      "object": "South Africa"
+    },
+    {
+      "subject": "Nairobi",
+      "object": "Kenya"
+    },
+    {
+      "subject": "Moscow",
+      "object": "Russia"
+    },
+    {
+      "subject": "Saint Petersburg",
+      "object": "Russia"
+    }
+  ]
+}

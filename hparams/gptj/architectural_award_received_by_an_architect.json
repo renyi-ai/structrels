@@ -1,0 +1,9 @@
+{
+    "model_name": "gptj",
+    "relation_name": "architectural award received by an architect",
+    "h_layer": 7,
+    "beta": 1.6666666666666667,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 6
+}

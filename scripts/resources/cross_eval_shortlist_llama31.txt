@@ -1,0 +1,25 @@
+adjective antonym
+adverb antonym
+computing concept antonym
+noun antonym
+preposition antonym
+emotion color
+fruit inside color
+fruit outside color
+warm vs cool color
+a scientist gender
+actor gender
+athlete gender
+author gender
+character gender
+characteristic gender
+univ degree gender
+occupation gender
+city in country
+electoral commissioner of country
+ethnic group in a country
+food from country
+landmark in country
+name birthplace
+primary language spoken in a country
+urban area in a country

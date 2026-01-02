@@ -1,0 +1,29 @@
+{
+    "name": "grown animal",
+    "prompt_templates": [
+      "The grown {} is called a"
+    ],
+    "prompt_templates_zs": [
+      "An adult {} is",
+      "The adult form of a {} is"
+    ],
+    "properties": {
+      "relation_type": "biological",
+      "domain_name": "animal",
+      "range_name": "animal",
+      "symmetric": false
+    },
+    "samples": [
+      { "subject": "kitten",         "object": "cat" },
+      { "subject": "puppy",         "object": "dog" },
+      { "subject": "piglet",         "object": "pig" },
+      { "subject": "lamb",       "object": "sheep" },
+      { "subject": "foal",       "object": "horse" },
+      { "subject": "chick",     "object": "chicken" },
+      { "subject": "duckling",        "object": "duck" },
+      { "subject": "gosling",       "object": "goose" },
+      { "subject": "fawn",        "object": "deer" },
+      { "subject": "cub",        "object": "bear" },
+      { "subject": "tadpole",        "object": "frog" }
+    ]
+  }

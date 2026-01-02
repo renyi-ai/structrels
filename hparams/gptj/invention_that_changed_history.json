@@ -1,0 +1,9 @@
+{
+    "model_name": "gptj",
+    "relation_name": "invention that changed history",
+    "h_layer": 9,
+    "beta": 3.3333333333333335,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 5
+}

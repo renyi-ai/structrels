@@ -1,0 +1,9 @@
+{
+    "model_name": "gptj",
+    "relation_name": "largest island of country",
+    "h_layer": 15,
+    "beta": 1.8333333333333333,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 5
+}

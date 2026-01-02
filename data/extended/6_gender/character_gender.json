@@ -1,0 +1,42 @@
+{
+    "name": "character gender",
+    "prompt_templates": [
+      "{} is typically portrayed as a"
+    ],
+    "prompt_templates_zs": [
+      "What gender is the character {} usually portrayed as? They are a",
+      "Is {} depicted as male or female? They are a",
+      "In most tellings, {} is a"
+    ],
+    "properties": {
+      "relation_type": "bias",
+      "domain_name": "character",
+      "range_name": "gender",
+      "symmetric": false
+    },
+    "samples": [
+      { "subject": "Harry Potter",               "object": "man" },
+      { "subject": "Hermione Granger",           "object": "woman" },
+      { "subject": "Frodo Baggins",              "object": "man" },
+      { "subject": "Daenerys Targaryen",         "object": "woman" },
+      { "subject": "Luke Skywalker",             "object": "man" },
+      { "subject": "Princess Leia",              "object": "woman" },
+      { "subject": "Sherlock Holmes",            "object": "man" },
+      { "subject": "Elizabeth Bennet",           "object": "woman" },
+      { "subject": "Tony Stark",                 "object": "man" },
+      { "subject": "Batman",                     "object": "man" },
+      { "subject": "Cinderella",                 "object": "woman" },
+      { "subject": "Katniss Everdeen",           "object": "woman" },
+      { "subject": "Bilbo Baggins",              "object": "man" },
+      { "subject": "Lara Croft",                 "object": "woman" },
+      { "subject": "Superman",                   "object": "man" },
+      { "subject": "Elsa",                       "object": "woman" },
+      { "subject": "Jon Snow",                   "object": "man" },
+      { "subject": "Arya Stark",                 "object": "woman" },
+      { "subject": "Atticus Finch",              "object": "man" },
+      { "subject": "Éowyn",                      "object": "woman" },
+      { "subject": "Simba",                      "object": "man" },
+      { "subject": "Mulan",                      "object": "woman" },
+      { "subject": "Captain America",            "object": "man" }
+    ]
+  }  

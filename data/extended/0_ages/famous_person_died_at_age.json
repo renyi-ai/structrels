@@ -1,0 +1,39 @@
+{
+    "name": "famous person died at age",
+    "prompt_templates": [
+      "The age at which {} died is"
+    ],
+    "prompt_templates_zs": [
+      "At what age did {} die?",
+      "{} died at age"
+    ],
+    "properties": {
+      "relation_type": "historical",
+      "domain_name": "person",
+      "range_name": "age",
+      "symmetric": false
+    },
+    "samples": [
+      { "subject": "Shakespeare",  "object": "52" },
+      { "subject": "Einstein",     "object": "76" },
+      { "subject": "Beethoven",    "object": "56" },
+      { "subject": "Mozart",       "object": "35" },
+      { "subject": "Hemingway",    "object": "61" },
+      { "subject": "Lincoln",      "object": "56" },
+      { "subject": "Gandhi",       "object": "78" },
+      { "subject": "Mandela",      "object": "95" },
+      { "subject": "Curie",        "object": "66" },
+      { "subject": "Lennon",       "object": "40" },
+      { "subject": "Presley",      "object": "42" },
+      { "subject": "Monroe",       "object": "36" },
+      { "subject": "Dickens",      "object": "58" },
+      { "subject": "Darwin",       "object": "73" },
+      { "subject": "Picasso",      "object": "91" },
+      { "subject": "Newton",       "object": "84" },
+      { "subject": "Galileo",      "object": "77" },
+      { "subject": "VanGogh",      "object": "37" },
+      { "subject": "Cleopatra",    "object": "39" },
+      { "subject": "Aristotle",    "object": "62" }
+    ]
+  }
+  

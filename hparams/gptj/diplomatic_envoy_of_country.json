@@ -1,0 +1,9 @@
+{
+    "model_name": "gptj",
+    "relation_name": "diplomatic envoy of country",
+    "h_layer": 17,
+    "beta": 3.25,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 7
+}

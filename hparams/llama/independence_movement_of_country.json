@@ -1,0 +1,9 @@
+{
+    "model_name": "llama",
+    "relation_name": "independence movement of country",
+    "h_layer": 24,
+    "beta": 10.0,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 11
+}

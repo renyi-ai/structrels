@@ -1,0 +1,9 @@
+{
+    "model_name": "neox",
+    "relation_name": "primary language spoken in a country",
+    "h_layer": 19,
+    "beta": 2.75,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 6
+}

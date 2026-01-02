@@ -1,0 +1,9 @@
+{
+    "model_name": "neox",
+    "relation_name": "country capital city",
+    "h_layer": 13,
+    "beta": 4.0,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 3
+}

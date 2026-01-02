@@ -1,0 +1,41 @@
+{
+    "name": "year of coronation",
+    "prompt_templates": [
+      "{} was crowned in"
+    ],
+    "prompt_templates_zs": [
+      "In what year was {} crowned? It was in",
+      "{}'s coronation took place in the year",
+      "The coronation of {} occurred in"
+    ],
+    "properties": {
+      "relation_type": "historical",
+      "domain_name": "monarch",
+      "range_name": "year",
+      "symmetric": false
+    },
+    "samples": [
+      { "subject": "Queen Elizabeth II",            "object": "1953" },
+      { "subject": "Queen Victoria",                "object": "1838" },
+      { "subject": "King George VI",                "object": "1937" },
+      { "subject": "King George V",                 "object": "1911" },
+      { "subject": "Queen Elizabeth I",             "object": "1559" },
+      { "subject": "King Henry VIII",               "object": "1509" },
+      { "subject": "King Louis XIV",                "object": "1654" },
+      { "subject": "Emperor Napoleon III",          "object": "1852" },
+      { "subject": "Tsar Nicholas II",              "object": "1896" },
+      { "subject": "Peter the Great",               "object": "1724" },
+      { "subject": "King Louis XVI",                "object": "1775" },
+      { "subject": "King Felipe VI",                "object": "2014" },
+      { "subject": "King Willem-Alexander",         "object": "2013" },
+      { "subject": "Emperor Hirohito",              "object": "1928" },
+      { "subject": "Tsar Alexander III",            "object": "1883" },
+      { "subject": "King James I of England",       "object": "1604" },
+      { "subject": "King Charles I",                "object": "1626" },
+      { "subject": "King Charles II",               "object": "1661" },
+      { "subject": "King Edward VII",               "object": "1902" },
+      { "subject": "Queen Mary II",                 "object": "1689" },
+      { "subject": "King William III",              "object": "1689" },
+      { "subject": "King George IV",                "object": "1821" }
+    ]
+  }

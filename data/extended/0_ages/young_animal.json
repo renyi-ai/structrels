@@ -1,0 +1,35 @@
+{
+    "name": "young animal",
+    "prompt_templates": [
+      "The young {} is called a"
+    ],
+    "prompt_templates_zs": [
+      "A baby {} is",
+      "The juvenile form of a {} is"
+    ],
+    "properties": {
+      "relation_type": "biological",
+      "domain_name": "animal",
+      "range_name": "animal",
+      "symmetric": false
+    },
+    "samples": [
+      { "subject": "cat",         "object": "kitten" },
+      { "subject": "dog",         "object": "puppy" },
+      { "subject": "cow",         "object": "calf" },
+      { "subject": "pig",         "object": "piglet" },
+      { "subject": "sheep",       "object": "lamb" },
+      { "subject": "horse",       "object": "foal" },
+      { "subject": "chicken",     "object": "chick" },
+      { "subject": "duck",        "object": "duckling" },
+      { "subject": "goose",       "object": "gosling" },
+      { "subject": "deer",        "object": "fawn" },
+      { "subject": "lion",        "object": "cub" },
+      { "subject": "tiger",       "object": "cub" },
+      { "subject": "bear",        "object": "cub" },
+      { "subject": "elephant",    "object": "calf" },
+      { "subject": "whale",       "object": "calf" },
+      { "subject": "frog",        "object": "tadpole" }
+    ]
+  }
+  

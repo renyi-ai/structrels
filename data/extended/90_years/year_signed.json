@@ -1,0 +1,50 @@
+{
+    "name": "year signed",
+    "prompt_templates": [
+      "{} was signed in"
+    ],
+    "prompt_templates_zs": [
+      "In what year was {} signed? It was in",
+      "The year {} was signed is",
+      "When was {} signed? It was in"
+    ],
+    "properties": {
+      "relation_type": "historical",
+      "domain_name": "treaty",
+      "range_name": "year",
+      "symmetric": false
+    },
+    "samples": [
+      { "subject": "Treaty of Versailles",               "object": "1919" },
+      { "subject": "Treaty of Paris (1783)",             "object": "1783" },
+      { "subject": "Peace of Westphalia",                "object": "1648" },
+      { "subject": "Treaty of Utrecht",                  "object": "1713" },
+      { "subject": "Treaty of Ghent",                    "object": "1814" },
+      { "subject": "Camp David Accords",                 "object": "1978" },
+      { "subject": "Treaty of Tordesillas",              "object": "1494" },
+      { "subject": "Treaty of Amiens",                   "object": "1802" },
+      { "subject": "Treaty of Guadalupe Hidalgo",        "object": "1848" },
+      { "subject": "Treaty of Nanking",                  "object": "1842" },
+      { "subject": "Kellogg–Briand Pact",                "object": "1928" },
+      { "subject": "Treaty of Brest-Litovsk",            "object": "1918" },
+      { "subject": "Treaty of Lausanne",                 "object": "1923" },
+      { "subject": "Treaty of San Stefano",              "object": "1878" },
+      { "subject": "Treaty of Waitangi",                 "object": "1840" },
+      { "subject": "Peace of Augsburg",                  "object": "1555" },
+      { "subject": "Treaty of London (1839)",            "object": "1839" },
+      { "subject": "North Atlantic Treaty",              "object": "1949" },
+      { "subject": "Treaty of Rome",                     "object": "1957" },
+      { "subject": "SALT I Treaty",                      "object": "1972" },
+      { "subject": "INF Treaty",                         "object": "1987" },
+      { "subject": "Kyoto Protocol",                     "object": "1997" },
+      { "subject": "Paris Agreement",                    "object": "2015" },
+      { "subject": "Good Friday Agreement",              "object": "1998" },
+      { "subject": "Treaty of Campo Formio",             "object": "1797" },
+      { "subject": "Treaty of Frankfurt",                "object": "1871" },
+      { "subject": "Treaty of Shimonoseki",              "object": "1895" },
+      { "subject": "Treaty of Berlin (1878)",            "object": "1878" },
+      { "subject": "Treaty of San Francisco",            "object": "1951" },
+      { "subject": "Treaty of Saint-Germain-en-Laye",    "object": "1919" }
+    ]
+  }
+  

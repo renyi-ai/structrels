@@ -1,0 +1,8 @@
+a scientist gender
+actor gender
+athlete gender
+author gender
+character gender
+characteristic gender
+univ degree gender
+occupation gender

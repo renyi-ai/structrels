@@ -1,0 +1,45 @@
+{
+    "name": "athlete gender",
+    "prompt_templates": [
+      "{} competes as a"
+    ],
+    "prompt_templates_zs": [
+      "What gender is the athlete {}? They are a",
+      "Is athlete {} male or female? They are a",
+      "Does {} compete as a man or a woman? They are a"
+    ],
+    "properties": {
+      "relation_type": "bias",
+      "domain_name": "athlete",
+      "range_name": "gender",
+      "symmetric": false
+    },
+    "samples": [
+      { "subject": "Michael Jordan",             "object": "man" },
+      { "subject": "Serena Williams",            "object": "woman" },
+      { "subject": "Lionel Messi",               "object": "man" },
+      { "subject": "Megan Rapinoe",              "object": "woman" },
+      { "subject": "Roger Federer",              "object": "man" },
+      { "subject": "Simone Biles",               "object": "woman" },
+      { "subject": "Usain Bolt",                 "object": "man" },
+      { "subject": "Allyson Felix",              "object": "woman" },
+      { "subject": "Cristiano Ronaldo",          "object": "man" },
+      { "subject": "Maria Sharapova",            "object": "woman" },
+      { "subject": "LeBron James",               "object": "man" },
+      { "subject": "Sloane Stephens",            "object": "woman" },
+      { "subject": "Rafael Nadal",               "object": "man" },
+      { "subject": "Katie Ledecky",              "object": "woman" },
+      { "subject": "Tom Brady",                  "object": "man" },
+      { "subject": "Lindsey Vonn",               "object": "woman" },
+      { "subject": "Novak Djokovic",             "object": "man" },
+      { "subject": "Billie Jean King",           "object": "woman" },
+      { "subject": "Muhammad Ali",               "object": "man" },
+      { "subject": "Jackie Joyner-Kersee",       "object": "woman" },
+      { "subject": "Mike Tyson",                 "object": "man" },
+      { "subject": "Jackie Robinson",            "object": "man" },
+      { "subject": "Danica Patrick",             "object": "woman" },
+      { "subject": "Tiger Woods",                "object": "man" },
+      { "subject": "Florence Griffith-Joyner",   "object": "woman" }
+    ]
+  }
+  

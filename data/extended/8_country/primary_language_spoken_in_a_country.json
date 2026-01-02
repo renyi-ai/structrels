@@ -1,0 +1,181 @@
+{
+  "name": "primary language spoken in a country",
+  "prompt_templates": [
+    "What country primarily speaks {}?",
+    "In which country is {} the main language spoken?",
+    "Which country has {} as its primary language?"
+  ],
+  "prompt_templates_zs": [
+    "What country primarily speaks the language {}?",
+    "In which country is {} the main language spoken?",
+    "Which country has {} as its primary language?"
+  ],
+  "properties": {
+    "relation_type": "demographicandsocialrelations",
+    "domain_name": "a country",
+    "range_name": "primary language spoken",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Mandarin Chinese",
+      "object": "China"
+    },
+    {
+      "subject": "Hindi",
+      "object": "India"
+    },
+    {
+      "subject": "Spanish",
+      "object": "Mexico"
+    },
+    {
+      "subject": "English",
+      "object": "United States"
+    },
+    {
+      "subject": "Portuguese",
+      "object": "Brazil"
+    },
+    {
+      "subject": "Russian",
+      "object": "Russia"
+    },
+    {
+      "subject": "Japanese",
+      "object": "Japan"
+    },
+    {
+      "subject": "German",
+      "object": "Germany"
+    },
+    {
+      "subject": "French",
+      "object": "France"
+    },
+    {
+      "subject": "Italian",
+      "object": "Italy"
+    },
+    {
+      "subject": "Arabic",
+      "object": "Egypt"
+    },
+    {
+      "subject": "Turkish",
+      "object": "Turkey"
+    },
+    {
+      "subject": "Persian",
+      "object": "Iran"
+    },
+    {
+      "subject": "Thai",
+      "object": "Thailand"
+    },
+    {
+      "subject": "Korean",
+      "object": "South Korea"
+    },
+    {
+      "subject": "Vietnamese",
+      "object": "Vietnam"
+    },
+    {
+      "subject": "Bengali",
+      "object": "Bangladesh"
+    },
+    {
+      "subject": "Ukrainian",
+      "object": "Ukraine"
+    },
+    {
+      "subject": "Polish",
+      "object": "Poland"
+    },
+    {
+      "subject": "Dutch",
+      "object": "Netherlands"
+    },
+    {
+      "subject": "Greek",
+      "object": "Greece"
+    },
+    {
+      "subject": "Czech",
+      "object": "Czech Republic"
+    },
+    {
+      "subject": "Hungarian",
+      "object": "Hungary"
+    },
+    {
+      "subject": "Swedish",
+      "object": "Sweden"
+    },
+    {
+      "subject": "Finnish",
+      "object": "Finland"
+    },
+    {
+      "subject": "Norwegian",
+      "object": "Norway"
+    },
+    {
+      "subject": "Danish",
+      "object": "Denmark"
+    },
+    {
+      "subject": "Romanian",
+      "object": "Romania"
+    },
+    {
+      "subject": "Bulgarian",
+      "object": "Bulgaria"
+    },
+    {
+      "subject": "Serbian",
+      "object": "Serbia"
+    },
+    {
+      "subject": "Croatian",
+      "object": "Croatia"
+    },
+    {
+      "subject": "Hebrew",
+      "object": "Israel"
+    },
+    {
+      "subject": "Swahili",
+      "object": "Tanzania"
+    },
+    {
+      "subject": "Amharic",
+      "object": "Ethiopia"
+    },
+    {
+      "subject": "Malay",
+      "object": "Malaysia"
+    },
+    {
+      "subject": "Sinhala",
+      "object": "Sri Lanka"
+    },
+    {
+      "subject": "Khmer",
+      "object": "Cambodia"
+    },
+    {
+      "subject": "Lao",
+      "object": "Laos"
+    },
+    {
+      "subject": "Indonesian",
+      "object": "Indonesia"
+    },
+    {
+      "subject": "Tagalog",
+      "object": "Philippines"
+    }
+  ]
+}

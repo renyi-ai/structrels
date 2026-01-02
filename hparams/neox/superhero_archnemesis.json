@@ -1,0 +1,9 @@
+{
+    "model_name": "neox",
+    "relation_name": "superhero archnemesis",
+    "h_layer": 21,
+    "beta": 2.0,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 7
+}

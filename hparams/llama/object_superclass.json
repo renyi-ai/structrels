@@ -1,0 +1,9 @@
+{
+    "model_name": "llama",
+    "relation_name": "object superclass",
+    "h_layer": 8,
+    "beta": 5.5,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 7
+}

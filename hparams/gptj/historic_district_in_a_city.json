@@ -1,0 +1,9 @@
+{
+    "model_name": "gptj",
+    "relation_name": "historic district in a city",
+    "h_layer": 7,
+    "beta": 0.5833333333333334,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 4
+}

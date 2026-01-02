@@ -1,0 +1,79 @@
+author gender
+a scientist gender
+characteristic gender
+degree gender
+character gender
+occupation gender
+actor gender
+athlete gender
+pokemon evolutions
+person plays position in sport
+country capital city
+person mother
+person plays instrument
+company hq
+person father
+landmark on continent
+person plays pro sport
+person university
+star constellation
+superhero archnemesis
+person native language
+country largest city
+superhero person
+company ceo
+product by company
+person band lead singer
+country currency
+country language
+person occupation
+name religion
+year signed
+year war ended in
+year of death
+year of coup
+president election year
+year of birth
+year war started in
+year of coronation
+adverb antonym
+preposition antonym
+adjective antonym
+noun antonym
+computing concept antonym
+emotion color
+warm vs cool color
+fruit inside color
+fruit outside color
+complementary colors
+a element in the periodic table
+a word last letter
+verb past tense
+adjective superlative
+adjective comparative
+a word first letter
+famous person died at age
+young animal
+president birth year
+grown animal
+occupation age
+life stage progression
+ethnic group in a country
+food from country
+name birthplace
+electoral commissioner of country
+primary language spoken in a country
+city in country
+landmark in country
+urban area in a country
+independence movement of country
+mathematical theorem named after mathematician
+book adapted into a film
+semiconductor chip manufactured by company
+species belonging to a genus
+task done by tool
+substance phase
+word sentiment
+work location
+object superclass
+task done by person

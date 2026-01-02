@@ -1,0 +1,502 @@
+{
+  "name": "person plays instrument",
+  "prompt_templates": [
+    "{} plays the"
+  ],
+  "prompt_templates_zs": [
+    "What instrument does {} play? They play the",
+    "The instrument that {} plays is called the"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "person",
+    "range_name": "instrument",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Toko Yasuda",
+      "object": "guitar"
+    },
+    {
+      "subject": "Tom Fletcher",
+      "object": "guitar"
+    },
+    {
+      "subject": "Mark Isham",
+      "object": "trumpet"
+    },
+    {
+      "subject": "Alain Lanty",
+      "object": "piano"
+    },
+    {
+      "subject": "Victor Merzhanov",
+      "object": "piano"
+    },
+    {
+      "subject": "Tom Waits",
+      "object": "piano"
+    },
+    {
+      "subject": "Micko Larkin",
+      "object": "guitar"
+    },
+    {
+      "subject": "Keith Emerson",
+      "object": "piano"
+    },
+    {
+      "subject": "Glen Ballard",
+      "object": "guitar"
+    },
+    {
+      "subject": "Terry Trotter",
+      "object": "piano"
+    },
+    {
+      "subject": "Roy Paci",
+      "object": "trumpet"
+    },
+    {
+      "subject": "Vitaly Margulis",
+      "object": "piano"
+    },
+    {
+      "subject": "Josephine Wiggs",
+      "object": "guitar"
+    },
+    {
+      "subject": "Johan De Farfalla",
+      "object": "guitar"
+    },
+    {
+      "subject": "Mike Scaccia",
+      "object": "guitar"
+    },
+    {
+      "subject": "Arthur Grumiaux",
+      "object": "piano"
+    },
+    {
+      "subject": "Larry Knechtel",
+      "object": "guitar"
+    },
+    {
+      "subject": "Andor Toth",
+      "object": "violin"
+    },
+    {
+      "subject": "John Cipollina",
+      "object": "guitar"
+    },
+    {
+      "subject": "Robert Fripp",
+      "object": "guitar"
+    },
+    {
+      "subject": "Gidon Kremer",
+      "object": "violin"
+    },
+    {
+      "subject": "Kye Palmer",
+      "object": "trumpet"
+    },
+    {
+      "subject": "Heather Trost",
+      "object": "violin"
+    },
+    {
+      "subject": "Nick Didkovsky",
+      "object": "guitar"
+    },
+    {
+      "subject": "Herbie Nichols",
+      "object": "piano"
+    },
+    {
+      "subject": "Jean-Jacques Goldman",
+      "object": "piano"
+    },
+    {
+      "subject": "John Fogerty",
+      "object": "guitar"
+    },
+    {
+      "subject": "Matthieu Chedid",
+      "object": "guitar"
+    },
+    {
+      "subject": "Roger Ingram",
+      "object": "trumpet"
+    },
+    {
+      "subject": "Brad Delson",
+      "object": "guitar"
+    },
+    {
+      "subject": "Pepeu Gomes",
+      "object": "guitar"
+    },
+    {
+      "subject": "Hilary Hahn",
+      "object": "violin"
+    },
+    {
+      "subject": "Chris Daughtry",
+      "object": "guitar"
+    },
+    {
+      "subject": "Lil Hardin Armstrong",
+      "object": "piano"
+    },
+    {
+      "subject": "Dizzy Reed",
+      "object": "piano"
+    },
+    {
+      "subject": "Mark O'Connor",
+      "object": "violin"
+    },
+    {
+      "subject": "Meshell Ndegeocello",
+      "object": "guitar"
+    },
+    {
+      "subject": "Chris Thile",
+      "object": "guitar"
+    },
+    {
+      "subject": "Tadd Dameron",
+      "object": "piano"
+    },
+    {
+      "subject": "Drew Shirley",
+      "object": "guitar"
+    },
+    {
+      "subject": "Charlie Palmieri",
+      "object": "piano"
+    },
+    {
+      "subject": "James Honeyman-Scott",
+      "object": "guitar"
+    },
+    {
+      "subject": "Sarah Cahill",
+      "object": "piano"
+    },
+    {
+      "subject": "Luigi Dallapiccola",
+      "object": "piano"
+    },
+    {
+      "subject": "Darol Anger",
+      "object": "violin"
+    },
+    {
+      "subject": "Pete Johnson",
+      "object": "piano"
+    },
+    {
+      "subject": "Bert Joris",
+      "object": "trumpet"
+    },
+    {
+      "subject": "Raimonds Pauls",
+      "object": "piano"
+    },
+    {
+      "subject": "David Gates",
+      "object": "violin"
+    },
+    {
+      "subject": "The Edge",
+      "object": "guitar"
+    },
+    {
+      "subject": "George Gershwin",
+      "object": "piano"
+    },
+    {
+      "subject": "Manos Hatzidakis",
+      "object": "piano"
+    },
+    {
+      "subject": "Gina Birch",
+      "object": "guitar"
+    },
+    {
+      "subject": "Cheyenne Kimball",
+      "object": "guitar"
+    },
+    {
+      "subject": "Peter Head",
+      "object": "piano"
+    },
+    {
+      "subject": "Alberto Nepomuceno",
+      "object": "piano"
+    },
+    {
+      "subject": "Idrees Sulieman",
+      "object": "trumpet"
+    },
+    {
+      "subject": "Steve Marriott",
+      "object": "guitar"
+    },
+    {
+      "subject": "Harold Craxton",
+      "object": "piano"
+    },
+    {
+      "subject": "Martin Gordon",
+      "object": "piano"
+    },
+    {
+      "subject": "Jeanne Lamon",
+      "object": "violin"
+    },
+    {
+      "subject": "George Martin",
+      "object": "piano"
+    },
+    {
+      "subject": "Michael Mantler",
+      "object": "trumpet"
+    },
+    {
+      "subject": "Yuriy Oliynyk",
+      "object": "piano"
+    },
+    {
+      "subject": "Nita Strauss",
+      "object": "guitar"
+    },
+    {
+      "subject": "Ma Sicong",
+      "object": "violin"
+    },
+    {
+      "subject": "Ted Dwane",
+      "object": "guitar"
+    },
+    {
+      "subject": "Pete Lesperance",
+      "object": "guitar"
+    },
+    {
+      "subject": "Melvyn Gale",
+      "object": "piano"
+    },
+    {
+      "subject": "Rick Braun",
+      "object": "trumpet"
+    },
+    {
+      "subject": "Franz Liszt",
+      "object": "piano"
+    },
+    {
+      "subject": "Bud Scott",
+      "object": "guitar"
+    },
+    {
+      "subject": "Itzhak Perlman",
+      "object": "violin"
+    },
+    {
+      "subject": "Alice Coltrane",
+      "object": "piano"
+    },
+    {
+      "subject": "Maud Powell",
+      "object": "violin"
+    },
+    {
+      "subject": "Elvis Presley",
+      "object": "guitar"
+    },
+    {
+      "subject": "Geirr Tveitt",
+      "object": "piano"
+    },
+    {
+      "subject": "Mercer Ellington",
+      "object": "trumpet"
+    },
+    {
+      "subject": "Clifford Curzon",
+      "object": "piano"
+    },
+    {
+      "subject": "Russell Gunn",
+      "object": "trumpet"
+    },
+    {
+      "subject": "Brian May",
+      "object": "guitar"
+    },
+    {
+      "subject": "Yfrah Neaman",
+      "object": "violin"
+    },
+    {
+      "subject": "Vlatko Stefanovski",
+      "object": "guitar"
+    },
+    {
+      "subject": "Yvonne Hubert",
+      "object": "piano"
+    },
+    {
+      "subject": "Friedrich Gulda",
+      "object": "piano"
+    },
+    {
+      "subject": "Dave Hernandez",
+      "object": "guitar"
+    },
+    {
+      "subject": "Wolfgang Sawallisch",
+      "object": "piano"
+    },
+    {
+      "subject": "Sheryl Crow",
+      "object": "guitar"
+    },
+    {
+      "subject": "Cat Stevens",
+      "object": "guitar"
+    },
+    {
+      "subject": "Toshiko Akiyoshi",
+      "object": "piano"
+    },
+    {
+      "subject": "Curley Weaver",
+      "object": "guitar"
+    },
+    {
+      "subject": "Cyril Scott",
+      "object": "piano"
+    },
+    {
+      "subject": "Al Haig",
+      "object": "piano"
+    },
+    {
+      "subject": "Britney Spears",
+      "object": "singing"
+    },
+    {
+      "subject": "Millard Powers",
+      "object": "piano"
+    },
+    {
+      "subject": "Ingrid Jensen",
+      "object": "trumpet"
+    },
+    {
+      "subject": "Anna Yesipova",
+      "object": "piano"
+    },
+    {
+      "subject": "Julian Lennon",
+      "object": "guitar"
+    },
+    {
+      "subject": "Noel Mewton-Wood",
+      "object": "piano"
+    },
+    {
+      "subject": "Shmuel Ashkenasi",
+      "object": "violin"
+    },
+    {
+      "subject": "Soozie Tyrell",
+      "object": "violin"
+    },
+    {
+      "subject": "Liam Gallagher",
+      "object": "guitar"
+    },
+    {
+      "subject": "George Duke",
+      "object": "piano"
+    },
+    {
+      "subject": "Tony Ashton",
+      "object": "piano"
+    },
+    {
+      "subject": "Ludovico Einaudi",
+      "object": "piano"
+    },
+    {
+      "subject": "Skylar Grey",
+      "object": "piano"
+    },
+    {
+      "subject": "Yves Nat",
+      "object": "piano"
+    },
+    {
+      "subject": "Edvard Grieg",
+      "object": "piano"
+    },
+    {
+      "subject": "Anthony Plog",
+      "object": "trumpet"
+    },
+    {
+      "subject": "Gunnar Andreas Berg",
+      "object": "guitar"
+    },
+    {
+      "subject": "Melissa Etheridge",
+      "object": "guitar"
+    },
+    {
+      "subject": "Ray Charles",
+      "object": "piano"
+    },
+    {
+      "subject": "Mike Shinoda",
+      "object": "piano"
+    },
+    {
+      "subject": "Hank Jones",
+      "object": "piano"
+    },
+    {
+      "subject": "Anson Funderburgh",
+      "object": "guitar"
+    },
+    {
+      "subject": "Jack Sheldon",
+      "object": "trumpet"
+    },
+    {
+      "subject": "Georgie Fame",
+      "object": "piano"
+    },
+    {
+      "subject": "Christopher O'Riley",
+      "object": "piano"
+    },
+    {
+      "subject": "Norman Petty",
+      "object": "piano"
+    },
+    {
+      "subject": "Buster Harding",
+      "object": "piano"
+    },
+    {
+      "subject": "Guy Picciotto",
+      "object": "guitar"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+    "model_name": "llama",
+    "relation_name": "person university",
+    "h_layer": 13,
+    "beta": 5.5,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 7
+}

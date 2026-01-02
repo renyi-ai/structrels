@@ -1,0 +1,47 @@
+{
+    "name": "year of birth",
+    "prompt_templates": [
+      "{} was born in"
+    ],
+    "prompt_templates_zs": [
+      "In what year was {} born? It was in",
+      "{}'s birth year is",
+      "The year {} was born is"
+    ],
+    "properties": {
+      "relation_type": "historical",
+      "domain_name": "person",
+      "range_name": "year",
+      "symmetric": false
+    },
+    "samples": [
+      { "subject": "William Shakespeare",         "object": "1564" },
+      { "subject": "Leonardo da Vinci",           "object": "1452" },
+      { "subject": "Michelangelo",                "object": "1475" },
+      { "subject": "Christopher Columbus",        "object": "1451" },
+      { "subject": "Isaac Newton",                "object": "1643" },
+      { "subject": "Johann Sebastian Bach",       "object": "1685" },
+      { "subject": "Wolfgang Amadeus Mozart",     "object": "1756" },
+      { "subject": "Ludwig van Beethoven",        "object": "1770" },
+      { "subject": "Charles Darwin",              "object": "1809" },
+      { "subject": "Emily Dickinson",             "object": "1830" },
+      { "subject": "Marie Curie",                 "object": "1867" },
+      { "subject": "Sigmund Freud",               "object": "1856" },
+      { "subject": "Vincent van Gogh",            "object": "1853" },
+      { "subject": "Albert Einstein",             "object": "1879" },
+      { "subject": "Winston Churchill",           "object": "1874" },
+      { "subject": "Pablo Picasso",               "object": "1881" },
+      { "subject": "Mahatma Gandhi",              "object": "1869" },
+      { "subject": "Martin Luther King Jr.",      "object": "1929" },
+      { "subject": "Queen Elizabeth II",          "object": "1926" },
+      { "subject": "Mother Teresa",               "object": "1910" },
+      { "subject": "Steve Jobs",                  "object": "1955" },
+      { "subject": "Bill Gates",                  "object": "1955" },
+      { "subject": "Oprah Winfrey",               "object": "1954" },
+      { "subject": "Barack Obama",                "object": "1961" },
+      { "subject": "Michael Jackson",             "object": "1958" },
+      { "subject": "Madonna",                     "object": "1958" },
+      { "subject": "Elvis Presley",               "object": "1935" }
+    ]
+  }
+  

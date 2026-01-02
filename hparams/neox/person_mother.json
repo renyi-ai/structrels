@@ -1,0 +1,9 @@
+{
+    "model_name": "neox",
+    "relation_name": "person mother",
+    "h_layer": 21,
+    "beta": 1.5,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 13
+}

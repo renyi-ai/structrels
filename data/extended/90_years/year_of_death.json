@@ -1,0 +1,48 @@
+{
+    "name": "year of death",
+    "prompt_templates": [
+      "{} died in"
+    ],
+    "prompt_templates_zs": [
+      "In what year did {} die? It was in",
+      "{}'s death year is",
+      "The year {} died is"
+    ],
+    "properties": {
+      "relation_type": "historical",
+      "domain_name": "person",
+      "range_name": "year",
+      "symmetric": false
+    },
+    "samples": [
+      { "subject": "William Shakespeare",         "object": "1616" },
+      { "subject": "Leonardo da Vinci",           "object": "1519" },
+      { "subject": "Michelangelo",                "object": "1564" },
+      { "subject": "Christopher Columbus",        "object": "1506" },
+      { "subject": "Isaac Newton",                "object": "1727" },
+      { "subject": "Johann Sebastian Bach",       "object": "1750" },
+      { "subject": "Wolfgang Amadeus Mozart",     "object": "1791" },
+      { "subject": "Ludwig van Beethoven",        "object": "1827" },
+      { "subject": "Charles Darwin",              "object": "1882" },
+      { "subject": "Emily Dickinson",             "object": "1886" },
+      { "subject": "Marie Curie",                 "object": "1934" },
+      { "subject": "Sigmund Freud",               "object": "1939" },
+      { "subject": "Vincent van Gogh",            "object": "1890" },
+      { "subject": "Albert Einstein",             "object": "1955" },
+      { "subject": "Winston Churchill",           "object": "1965" },
+      { "subject": "Pablo Picasso",               "object": "1973" },
+      { "subject": "Mahatma Gandhi",              "object": "1948" },
+      { "subject": "Nelson Mandela",              "object": "2013" },
+      { "subject": "Martin Luther King Jr.",      "object": "1968" },
+      { "subject": "Queen Elizabeth II",          "object": "2022" },
+      { "subject": "Andy Warhol",                 "object": "1987" },
+      { "subject": "Mother Teresa",               "object": "1997" },
+      { "subject": "Steve Jobs",                  "object": "2011" },
+      { "subject": "John Lennon",                 "object": "1980" },
+      { "subject": "Florence Nightingale",        "object": "1910" },
+      { "subject": "Elvis Presley",               "object": "1977" },
+      { "subject": "Abraham Lincoln",             "object": "1865" },
+      { "subject": "Franklin D. Roosevelt",       "object": "1945" }
+    ]
+  }
+  

@@ -1,0 +1,9 @@
+{
+    "model_name": "gptj",
+    "relation_name": "coup d'\u00e9tat in country",
+    "h_layer": 6,
+    "beta": 1.6666666666666667,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 9
+}

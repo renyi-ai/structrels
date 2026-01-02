@@ -1,0 +1,9 @@
+{
+    "model_name": "neox",
+    "relation_name": "product by company",
+    "h_layer": 23,
+    "beta": 1.25,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 7
+}

@@ -1,0 +1,34 @@
+{
+    "name": "life stage progression",
+    "prompt_templates": [
+      "What life stage comes after {}?"
+    ],
+    "prompt_templates_zs": [
+      "After {}, the next stage is",
+      "Following {}, you have"
+    ],
+    "properties": {
+      "relation_type": "conceptual",
+      "domain_name": "life stage",
+      "range_name": "life stage",
+      "symmetric": false
+    },
+    "samples": [
+      { "subject": "zygote",            "object": "blastocyst" },
+      { "subject": "blastocyst",        "object": "embryo" },
+      { "subject": "embryo",            "object": "fetus" },
+      { "subject": "fetus",             "object": "newborn" },
+      { "subject": "newborn",           "object": "infant" },
+      { "subject": "infant",            "object": "toddler" },
+      { "subject": "kindergartner",     "object": "schooler" },
+      { "subject": "adolescent",        "object": "teenager" },
+      { "subject": "teenager",          "object": "adult" },
+      { "subject": "adult",             "object": "senior" },
+      { "subject": "senior",            "object": "elderly" },
+      { "subject": "elderly",           "object": "octogenarian" },
+      { "subject": "octogenarian",      "object": "nonagenarian" },
+      { "subject": "nonagenarian",      "object": "centenarian" },
+      { "subject": "centenarian",       "object": "supercentenarian" }
+    ]
+  }
+  

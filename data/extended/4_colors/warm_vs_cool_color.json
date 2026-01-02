@@ -1,0 +1,39 @@
+{
+    "name": "warm vs cool color",
+    "prompt_templates": [
+      "The color {} is considered a"
+    ],
+    "prompt_templates_zs": [
+      "Is {} a warm or cool color?",
+      "{} is a {} color"
+    ],
+    "properties": {
+      "relation_type": "conceptual",
+      "domain_name": "color",
+      "range_name": "temperature category",
+      "symmetric": false
+    },
+    "samples": [
+      { "subject": "red",        "object": "warm" },
+      { "subject": "orange",     "object": "warm" },
+      { "subject": "yellow",     "object": "warm" },
+      { "subject": "coral",      "object": "warm" },
+      { "subject": "pink",       "object": "warm" },
+      { "subject": "magenta",    "object": "warm" },
+      { "subject": "gold",       "object": "warm" },
+      { "subject": "amber",      "object": "warm" },
+      { "subject": "crimson",    "object": "warm" },
+      { "subject": "brown",      "object": "warm" },
+      { "subject": "blue",       "object": "cool" },
+      { "subject": "green",      "object": "cool" },
+      { "subject": "purple",     "object": "cool" },
+      { "subject": "teal",       "object": "cool" },
+      { "subject": "cyan",       "object": "cool" },
+      { "subject": "turquoise",  "object": "cool" },
+      { "subject": "navy",       "object": "cool" },
+      { "subject": "lavender",   "object": "cool" },
+      { "subject": "silver",     "object": "cool" },
+      { "subject": "gray",       "object": "cool" }
+    ]
+  }
+  

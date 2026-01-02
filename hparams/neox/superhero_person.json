@@ -1,0 +1,9 @@
+{
+    "model_name": "neox",
+    "relation_name": "superhero person",
+    "h_layer": 13,
+    "beta": 2.0,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 13
+}

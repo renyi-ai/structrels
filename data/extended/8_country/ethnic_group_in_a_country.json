@@ -1,0 +1,181 @@
+{
+  "name": "ethnic group in a country",
+  "prompt_templates": [
+    "What country is associated with the ethnic group {}?",
+    "In which country can the ethnic group {} be found?",
+    "Identify the country where the ethnic group {} predominantly resides."
+  ],
+  "prompt_templates_zs": [
+    "What country is associated with the ethnic group {}?",
+    "In which country can the ethnic group {} be primarily found?",
+    "Identify the country where the ethnic group {} is predominantly located."
+  ],
+  "properties": {
+    "relation_type": "demographicandsocialrelations",
+    "domain_name": "a country",
+    "range_name": "ethnic group",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Han Chinese",
+      "object": "China"
+    },
+    {
+      "subject": "Punjabi",
+      "object": "Pakistan"
+    },
+    {
+      "subject": "Yoruba",
+      "object": "Nigeria"
+    },
+    {
+      "subject": "Bengali",
+      "object": "Bangladesh"
+    },
+    {
+      "subject": "Russian",
+      "object": "Russia"
+    },
+    {
+      "subject": "Japanese",
+      "object": "Japan"
+    },
+    {
+      "subject": "German",
+      "object": "Germany"
+    },
+    {
+      "subject": "French",
+      "object": "France"
+    },
+    {
+      "subject": "English",
+      "object": "United Kingdom"
+    },
+    {
+      "subject": "Italian",
+      "object": "Italy"
+    },
+    {
+      "subject": "Mexican Mestizo",
+      "object": "Mexico"
+    },
+    {
+      "subject": "Amhara",
+      "object": "Ethiopia"
+    },
+    {
+      "subject": "Vietnamese",
+      "object": "Vietnam"
+    },
+    {
+      "subject": "Persian",
+      "object": "Iran"
+    },
+    {
+      "subject": "Turkish",
+      "object": "Turkey"
+    },
+    {
+      "subject": "Thai",
+      "object": "Thailand"
+    },
+    {
+      "subject": "Korean",
+      "object": "South Korea"
+    },
+    {
+      "subject": "Arab",
+      "object": "Saudi Arabia"
+    },
+    {
+      "subject": "Ukrainian",
+      "object": "Ukraine"
+    },
+    {
+      "subject": "Polish",
+      "object": "Poland"
+    },
+    {
+      "subject": "Romanian",
+      "object": "Romania"
+    },
+    {
+      "subject": "Dutch",
+      "object": "Netherlands"
+    },
+    {
+      "subject": "Greek",
+      "object": "Greece"
+    },
+    {
+      "subject": "Czech",
+      "object": "Czech Republic"
+    },
+    {
+      "subject": "Hungarian",
+      "object": "Hungary"
+    },
+    {
+      "subject": "Swedish",
+      "object": "Sweden"
+    },
+    {
+      "subject": "Portuguese",
+      "object": "Portugal"
+    },
+    {
+      "subject": "Akan",
+      "object": "Ghana"
+    },
+    {
+      "subject": "Zulu",
+      "object": "South Africa"
+    },
+    {
+      "subject": "Pashtun",
+      "object": "Afghanistan"
+    },
+    {
+      "subject": "Burmese",
+      "object": "Myanmar"
+    },
+    {
+      "subject": "Khmer",
+      "object": "Cambodia"
+    },
+    {
+      "subject": "Malay",
+      "object": "Malaysia"
+    },
+    {
+      "subject": "Sinhalese",
+      "object": "Sri Lanka"
+    },
+    {
+      "subject": "Hausa",
+      "object": "Niger"
+    },
+    {
+      "subject": "Quechua",
+      "object": "Peru"
+    },
+    {
+      "subject": "Inuit",
+      "object": "Canada"
+    },
+    {
+      "subject": "Maori",
+      "object": "New Zealand"
+    },
+    {
+      "subject": "Berber",
+      "object": "Morocco"
+    },
+    {
+      "subject": "Basque",
+      "object": "Spain"
+    }
+  ]
+}

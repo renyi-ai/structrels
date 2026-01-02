@@ -1,0 +1,9 @@
+{
+    "model_name": "gptj",
+    "relation_name": "legislator in national assembly",
+    "h_layer": 18,
+    "beta": 3.25,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 9
+}

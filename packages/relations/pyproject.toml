@@ -1,0 +1,63 @@
+[project]
+name = "relations"
+version = "1.0"
+dependencies = [
+    "accelerate>=1.12.0",
+    "baukit",
+    "black>=25.12.0",
+    "dataclasses-json>=0.6.7",
+    "huggingface-hub>=0.36.0",
+    "invoke>=2.2.1",
+    "isort>=7.0.0",
+    "jupyter>=1.1.1",
+    "jupyter-http-over-ws>=0.0.8",
+    "matplotlib>=3.10.8",
+    "mypy>=1.19.1",
+    "numpy>=2.2.6",
+    "plotly>=6.5.0",
+    "protobuf==3.20.0",
+    "pytest>=9.0.2",
+    "requests>=2.32.5",
+    "seaborn>=0.13.2",
+    "sentencepiece>=0.2.1",
+    "torch>=2.9.1",
+    "tqdm>=4.67.1",
+    "transformers>=4.57.3",
+    "types-requests>=2.32.4.20250913",
+]
+
+[tool.mypy]
+python_version = "3.10"
+warn_unused_configs = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+exclude = [
+    ".*tests.*",
+    # Will clean these up later.
+    "src/corner.py",
+]
+
+[tool.isort]
+profile = "black"
+sections = "FUTURE,STDLIB,FIRSTPARTY,THIRDPARTY"
+default_section = "THIRDPARTY"
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore::DeprecationWarning"
+]
+
+[tool.uv.sources]
+baukit = { git = "https://github.com/davidbau/baukit" }
+
+[tool.setuptools]
+package-dir = { src = "src" }
+packages = [
+    "src",
+    "src.utils",
+    "src.attributelens",
+]
+
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"

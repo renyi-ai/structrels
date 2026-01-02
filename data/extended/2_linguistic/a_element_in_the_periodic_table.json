@@ -1,0 +1,181 @@
+{
+  "name": "a element in the periodic table",
+  "prompt_templates": [
+    "What is the chemical symbol for the element {}?",
+    "Can you provide the symbol for the element known as {}?",
+    "What is the abbreviation for the element called {}?"
+  ],
+  "prompt_templates_zs": [
+    "What is the chemical symbol for the element {}?",
+    "Please provide the symbol for the element named {}.",
+    "Identify the symbol that corresponds to the element {}."
+  ],
+  "properties": {
+    "relation_type": "scientificrelations",
+    "domain_name": "the periodic table",
+    "range_name": "element",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Hydrogen",
+      "object": "H"
+    },
+    {
+      "subject": "Helium",
+      "object": "He"
+    },
+    {
+      "subject": "Lithium",
+      "object": "Li"
+    },
+    {
+      "subject": "Beryllium",
+      "object": "Be"
+    },
+    {
+      "subject": "Boron",
+      "object": "B"
+    },
+    {
+      "subject": "Carbon",
+      "object": "C"
+    },
+    {
+      "subject": "Nitrogen",
+      "object": "N"
+    },
+    {
+      "subject": "Oxygen",
+      "object": "O"
+    },
+    {
+      "subject": "Fluorine",
+      "object": "F"
+    },
+    {
+      "subject": "Neon",
+      "object": "Ne"
+    },
+    {
+      "subject": "Sodium",
+      "object": "Na"
+    },
+    {
+      "subject": "Magnesium",
+      "object": "Mg"
+    },
+    {
+      "subject": "Aluminum",
+      "object": "Al"
+    },
+    {
+      "subject": "Silicon",
+      "object": "Si"
+    },
+    {
+      "subject": "Phosphorus",
+      "object": "P"
+    },
+    {
+      "subject": "Sulfur",
+      "object": "S"
+    },
+    {
+      "subject": "Chlorine",
+      "object": "Cl"
+    },
+    {
+      "subject": "Argon",
+      "object": "Ar"
+    },
+    {
+      "subject": "Potassium",
+      "object": "K"
+    },
+    {
+      "subject": "Calcium",
+      "object": "Ca"
+    },
+    {
+      "subject": "Scandium",
+      "object": "Sc"
+    },
+    {
+      "subject": "Titanium",
+      "object": "Ti"
+    },
+    {
+      "subject": "Vanadium",
+      "object": "V"
+    },
+    {
+      "subject": "Chromium",
+      "object": "Cr"
+    },
+    {
+      "subject": "Manganese",
+      "object": "Mn"
+    },
+    {
+      "subject": "Iron",
+      "object": "Fe"
+    },
+    {
+      "subject": "Cobalt",
+      "object": "Co"
+    },
+    {
+      "subject": "Nickel",
+      "object": "Ni"
+    },
+    {
+      "subject": "Copper",
+      "object": "Cu"
+    },
+    {
+      "subject": "Zinc",
+      "object": "Zn"
+    },
+    {
+      "subject": "Gallium",
+      "object": "Ga"
+    },
+    {
+      "subject": "Germanium",
+      "object": "Ge"
+    },
+    {
+      "subject": "Arsenic",
+      "object": "As"
+    },
+    {
+      "subject": "Selenium",
+      "object": "Se"
+    },
+    {
+      "subject": "Bromine",
+      "object": "Br"
+    },
+    {
+      "subject": "Krypton",
+      "object": "Kr"
+    },
+    {
+      "subject": "Rubidium",
+      "object": "Rb"
+    },
+    {
+      "subject": "Strontium",
+      "object": "Sr"
+    },
+    {
+      "subject": "Yttrium",
+      "object": "Y"
+    },
+    {
+      "subject": "Zirconium",
+      "object": "Zr"
+    }
+  ]
+}

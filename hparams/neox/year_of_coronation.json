@@ -1,0 +1,9 @@
+{
+    "model_name": "neox",
+    "relation_name": "year of coronation",
+    "h_layer": 9,
+    "beta": 0.5,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 5
+}

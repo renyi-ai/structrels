@@ -1,0 +1,254 @@
+{
+    "name": "landmark on continent",
+    "prompt_templates": [
+        "{} is on the continent of"
+    ],
+    "prompt_templates_zs": [
+        "What continent is {} on? It is on",
+        "{} is on the continent of"
+    ],
+    "properties": {
+        "relation_type": "factual",
+        "domain_name": "landmark",
+        "range_name": "continent",
+        "symmetric": false
+    },
+    "samples": [
+        {
+            "subject": "Pidgeon Island",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Kryvyi Rih",
+            "object": "Europe"
+        },
+        {
+            "subject": "Howard Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Prydz Bay",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "George V Coast",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Gabbro Hills",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Rutgers Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Teres Ridge",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Risemedet Mountain",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Mount Markham",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Kalahari Desert",
+            "object": "Africa"
+        },
+        {
+            "subject": "Matusevich Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Nizamabad district",
+            "object": "Asia"
+        },
+        {
+            "subject": "Mobiloil Inlet",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Trail Inlet",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Suvorov Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Romulus Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Argosy Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Delchev Ridge",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Umayyad Caliphate",
+            "object": "Europe"
+        },
+        {
+            "subject": "Alpha Island",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Dniester",
+            "object": "Europe"
+        },
+        {
+            "subject": "East Ongul Island",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Spur Point",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Hannah Point",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Morozumi Range",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Cape Legoupil",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "North Brabant",
+            "object": "Europe"
+        },
+        {
+            "subject": "Mount Karisimbi",
+            "object": "Africa"
+        },
+        {
+            "subject": "Harold Byrd Mountains",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Annamalai University",
+            "object": "Asia"
+        },
+        {
+            "subject": "Afghanistan",
+            "object": "Asia"
+        },
+        {
+            "subject": "Indira Gandhi National Open University",
+            "object": "Asia"
+        },
+        {
+            "subject": "Mount Fridtjof Nansen",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Niger",
+            "object": "Africa"
+        },
+        {
+            "subject": "Miller Range",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Crown Peak",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Tower Island",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Forrestal Range",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Davis Station",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Guadalquivir",
+            "object": "Europe"
+        },
+        {
+            "subject": "Vistula",
+            "object": "Europe"
+        },
+        {
+            "subject": "Pare Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Eureka Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Mundraga Bay",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Mount Hornsby",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Himachal Pradesh",
+            "object": "Asia"
+        },
+        {
+            "subject": "Gair Mesa",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Lamplugh Island",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Everett Range",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Chambal River",
+            "object": "Asia"
+        },
+        {
+            "subject": "Lanterman Range",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Namibia",
+            "object": "Africa"
+        },
+        {
+            "subject": "Shackleton Ice Shelf",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Japan",
+            "object": "Asia"
+        },
+        {
+            "subject": "Seal Nunataks",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Ravens Mountains",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Lake Vida",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Monte San Giorgio",
+            "object": "Europe"
+        }
+    ]
+}

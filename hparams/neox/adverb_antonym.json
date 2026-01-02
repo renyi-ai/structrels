@@ -1,0 +1,9 @@
+{
+    "model_name": "neox",
+    "relation_name": "adverb antonym",
+    "h_layer": 28,
+    "beta": 3.75,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 4
+}

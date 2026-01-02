@@ -1,0 +1,386 @@
+{
+    "name": "person father",
+    "prompt_templates": [
+        "{}'s father is named"
+    ],
+    "prompt_templates_zs": [
+        "Who is {}'s father? Their father is named",
+        "{}'s father is named"
+    ],
+    "properties": {
+        "relation_type": "factual",
+        "domain_name": "person",
+        "range_name": "person",
+        "symmetric": false
+    },
+    "samples": [
+        {
+            "subject": "Beyonce Knowles",
+            "object": "Mathew Knowles"
+        },
+        {
+            "subject": "David Beckham",
+            "object": "David Edward Alan Beckham"
+        },
+        {
+            "subject": "Reese Witherspoon",
+            "object": "John Witherspoon"
+        },
+        {
+            "subject": "Paris Jackson",
+            "object": "Michael Jackson"
+        },
+        {
+            "subject": "Scott Eastwood",
+            "object": "Clint Eastwood"
+        },
+        {
+            "subject": "Rumer Willis",
+            "object": "Bruce Willis"
+        },
+        {
+            "subject": "Zoe Kravitz",
+            "object": "Lenny Kravitz"
+        },
+        {
+            "subject": "Dylan Brosnan",
+            "object": "Pierce Brosnan"
+        },
+        {
+            "subject": "Abby Elliott",
+            "object": "Chris Elliott"
+        },
+        {
+            "subject": "Georgia May Jagger",
+            "object": "Mick Jagger"
+        },
+        {
+            "subject": "Paula Abdul",
+            "object": "Harry Abdul"
+        },
+        {
+            "subject": "Chet Hanks",
+            "object": "Tom Hanks"
+        },
+        {
+            "subject": "Ivanka Trump",
+            "object": "Donald Trump"
+        },
+        {
+            "subject": "Patrick Schwarzenegger",
+            "object": "Arnold Schwarzenegger"
+        },
+        {
+            "subject": "Tracy Reiner",
+            "object": "Rob Reiner"
+        },
+        {
+            "subject": "Jakob Dylan",
+            "object": "Bob Dylan"
+        },
+        {
+            "subject": "Max Irons",
+            "object": "Jeremy Irons"
+        },
+        {
+            "subject": "Eva Amurri",
+            "object": "Franco Amurri"
+        },
+        {
+            "subject": "Jason Schwartzman",
+            "object": "Francis Ford Coppola"
+        },
+        {
+            "subject": "Colin Hanks",
+            "object": "Tom Hanks"
+        },
+        {
+            "subject": "Sosie Bacon",
+            "object": "Kevin Bacon"
+        },
+        {
+            "subject": "Stella McCartney",
+            "object": "Paul McCartney"
+        },
+        {
+            "subject": "Jessica Capshaw",
+            "object": "Steven Spielberg"
+        },
+        {
+            "subject": "Peter Paul Rubens",
+            "object": "Jan Rubens"
+        },
+        {
+            "subject": "Madonna",
+            "object": "Silvio P. (Tony) Ciccone"
+        },
+        {
+            "subject": "Pablo Picasso",
+            "object": "Jos\u00e9 Ruiz y Blanco"
+        },
+        {
+            "subject": "Lady Gaga",
+            "object": "Joe Germanotta"
+        },
+        {
+            "subject": "Rembrandt",
+            "object": "Harmen Gerritszoon van Rijn"
+        },
+        {
+            "subject": "Vladimir Putin",
+            "object": "Vladimir Spiridonovich Putin"
+        },
+        {
+            "subject": "Anthony van Dyck",
+            "object": "Franchois Van Dyck"
+        },
+        {
+            "subject": "Michael Jackson",
+            "object": "Joe Jackson"
+        },
+        {
+            "subject": "William Shakespeare",
+            "object": "John Shakespeare"
+        },
+        {
+            "subject": "Albrecht D\u00fcrer",
+            "object": "Albrecht D\u00fcrer the Elder"
+        },
+        {
+            "subject": "Vincent van Gogh",
+            "object": "Theodorus van Gogh"
+        },
+        {
+            "subject": "Aretha Franklin",
+            "object": "C. L. Franklin"
+        },
+        {
+            "subject": "Albert Einstein",
+            "object": "Hermann Einstein"
+        },
+        {
+            "subject": "Leonardo da Vinci",
+            "object": "Ser Piero da Vinci"
+        },
+        {
+            "subject": "Adolf Hitler",
+            "object": "Alois Hitler"
+        },
+        {
+            "subject": "Johann Wolfgang von Goethe",
+            "object": "Johann Caspar Goethe"
+        },
+        {
+            "subject": "Elizabeth II",
+            "object": "George VI"
+        },
+        {
+            "subject": "Leo Tolstoy",
+            "object": "Nikolay Tolstoy"
+        },
+        {
+            "subject": "Taylor Swift",
+            "object": "Scott Swift"
+        },
+        {
+            "subject": "Donald Trump",
+            "object": "Fred Trump"
+        },
+        {
+            "subject": "Jennifer Lopez",
+            "object": "Juan Lopez"
+        },
+        {
+            "subject": "Britney Spears",
+            "object": "James Parnell Spears"
+        },
+        {
+            "subject": "Barack Obama",
+            "object": "Barack Obama Sr."
+        },
+        {
+            "subject": "Cher",
+            "object": "John Sarkisian"
+        },
+        {
+            "subject": "Jesus",
+            "object": "God the Father"
+        },
+        {
+            "subject": "Michelangelo",
+            "object": "Lodovico di Leonardo Buonarroti Simoni"
+        },
+        {
+            "subject": "Lucas Cranach the Elder",
+            "object": "Hans Maler"
+        },
+        {
+            "subject": "Marilyn Monroe",
+            "object": "Charles Stanley Gifford"
+        },
+        {
+            "subject": "Wolfgang Amadeus Mozart",
+            "object": "Leopold Mozart"
+        },
+        {
+            "subject": "Ludwig van Beethoven",
+            "object": "Johann van Beethoven"
+        },
+        {
+            "subject": "Katy Perry",
+            "object": "Keith Hudson"
+        },
+        {
+            "subject": "Johann Sebastian Bach",
+            "object": "Johann Ambrosius Bach"
+        },
+        {
+            "subject": "Charles Darwin",
+            "object": "Robert Darwin"
+        },
+        {
+            "subject": "Paul C\u00e9zanne",
+            "object": "Louis-Auguste C\u00e9zanne"
+        },
+        {
+            "subject": "Francisco de Goya",
+            "object": "Jos\u00e9 Benito de Goya y Franque"
+        },
+        {
+            "subject": "Charles Dickens",
+            "object": "John Dickens"
+        },
+        {
+            "subject": "Friedrich Nietzsche",
+            "object": "Carl Ludwig Nietzsche"
+        },
+        {
+            "subject": "Joseph Stalin",
+            "object": "Besarion Jughashvili"
+        },
+        {
+            "subject": "Voltaire",
+            "object": "Fran\u00e7ois d'Arouet"
+        },
+        {
+            "subject": "Plato",
+            "object": "Ariston of Athens"
+        },
+        {
+            "subject": "Salvador Dal\u00ed",
+            "object": "Salvador Dal\u00ed i Cus\u00ed"
+        },
+        {
+            "subject": "Dante Alighieri",
+            "object": "Alighiero di Bellincione"
+        },
+        {
+            "subject": "John Lennon",
+            "object": "Alfred Lennon"
+        },
+        {
+            "subject": "Raphael",
+            "object": "Giovanni Santi"
+        },
+        {
+            "subject": "Andy Warhol",
+            "object": "Andrej Warhola"
+        },
+        {
+            "subject": "L. Frank Baum",
+            "object": "Benjamin Ward Baum"
+        },
+        {
+            "subject": "Shania Twain",
+            "object": "Clarence Edwards"
+        },
+        {
+            "subject": "Edgar Allan Poe",
+            "object": "David Poe, Jr."
+        },
+        {
+            "subject": "Lewis Carroll",
+            "object": "Charles Dodgson"
+        },
+        {
+            "subject": "\u00c9douard Manet",
+            "object": "Auguste Manet"
+        },
+        {
+            "subject": "Walt Disney",
+            "object": "Elias Disney"
+        },
+        {
+            "subject": "Angelina Jolie",
+            "object": "Jon Voight"
+        },
+        {
+            "subject": "Jane Fonda",
+            "object": "Henry Fonda"
+        },
+        {
+            "subject": "Bob Dylan",
+            "object": "Abram Zimmerman"
+        },
+        {
+            "subject": "William Blake",
+            "object": "James Blake"
+        },
+        {
+            "subject": "Vladimir Lenin",
+            "object": "Ilya Ulyanov"
+        },
+        {
+            "subject": "Janet Jackson",
+            "object": "Joe Jackson"
+        },
+        {
+            "subject": "Edgar Degas",
+            "object": "Auguste Degas"
+        },
+        {
+            "subject": "Ursula K. Le Guin",
+            "object": "Alfred L. Kroeber"
+        },
+        {
+            "subject": "Stephen Hawking",
+            "object": "Frank Hawking"
+        },
+        {
+            "subject": "Martin Luther",
+            "object": "Hans Luther"
+        },
+        {
+            "subject": "Alicia Keys",
+            "object": "Craig Cook"
+        },
+        {
+            "subject": "Gottfried Wilhelm Leibniz",
+            "object": "Friedrich Leibniz"
+        },
+        {
+            "subject": "Alexander Pushkin",
+            "object": "Sergey Pushkin"
+        },
+        {
+            "subject": "Marlene Dietrich",
+            "object": "Louis Erich Otto Dietrich"
+        },
+        {
+            "subject": "Dolly Parton",
+            "object": "Robert Lee Parton"
+        },
+        {
+            "subject": "Arthur Conan Doyle",
+            "object": "Charles Altamont Doyle"
+        },
+        {
+            "subject": "Hans Christian Andersen",
+            "object": "Hans Andersen"
+        },
+        {
+            "subject": "J. K. Rowling",
+            "object": "Peter James Rowling"
+        }
+    ]
+}

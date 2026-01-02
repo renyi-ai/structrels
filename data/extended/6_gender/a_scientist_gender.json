@@ -1,0 +1,44 @@
+{
+    "name": "a scientist gender",
+    "prompt_templates": [
+      "{} is typically a"
+    ],
+    "prompt_templates_zs": [
+      "What gender is the scientist {}? They are a",
+      "Is the scientist {} male or female? They are a",
+      "Does {} identify as male or female? They are a"
+    ],
+    "properties": {
+      "relation_type": "bias",
+      "domain_name": "scientist",
+      "range_name": "gender",
+      "symmetric": false
+    },
+    "samples": [
+      { "subject": "Marie Curie",               "object": "woman" },
+      { "subject": "Albert Einstein",           "object": "man" },
+      { "subject": "Isaac Newton",              "object": "man" },
+      { "subject": "Stephen Hawking",           "object": "man" },
+      { "subject": "Rosalind Franklin",         "object": "woman" },
+      { "subject": "Galileo Galilei",           "object": "man" },
+      { "subject": "Nikola Tesla",              "object": "man" },
+      { "subject": "Ada Lovelace",              "object": "woman" },
+      { "subject": "Charles Darwin",            "object": "man" },
+      { "subject": "Katherine Johnson",         "object": "woman" },
+      { "subject": "Richard Feynman",           "object": "man" },
+      { "subject": "Barbara McClintock",        "object": "woman" },
+      { "subject": "Niels Bohr",                "object": "man" },
+      { "subject": "Lise Meitner",              "object": "woman" },
+      { "subject": "Michael Faraday",           "object": "man" },
+      { "subject": "Jane Goodall",              "object": "woman" },
+      { "subject": "James Watson",              "object": "man" },
+      { "subject": "Frances Arnold",            "object": "woman" },
+      { "subject": "Alexander Fleming",         "object": "man" },
+      { "subject": "Dorothy Hodgkin",           "object": "woman" },
+      { "subject": "Carl Sagan",                "object": "man" },
+      { "subject": "Emmy Noether",              "object": "woman" },
+      { "subject": "Gregor Mendel",             "object": "man" },
+      { "subject": "Max Planck",                "object": "man" }
+    ]
+  }
+  

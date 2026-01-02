@@ -1,0 +1,45 @@
+{
+    "name": "year war started in",
+    "prompt_templates": [
+      "{} started in"
+    ],
+    "prompt_templates_zs": [
+      "In what year did {} start? It began in",
+      "When did the war {} begin? It was in",
+      "The war {} started in the year"
+    ],
+    "properties": {
+      "relation_type": "historical",
+      "domain_name": "war",
+      "range_name": "year",
+      "symmetric": false
+    },
+    "samples": [
+      { "subject": "World War I",                        "object": "1914" },
+      { "subject": "World War II",                       "object": "1939" },
+      { "subject": "American Civil War",                 "object": "1861" },
+      { "subject": "Napoleonic Wars",                    "object": "1803" },
+      { "subject": "Korean War",                         "object": "1950" },
+      { "subject": "Vietnam War",                        "object": "1955" },
+      { "subject": "Gulf War",                           "object": "1990" },
+      { "subject": "Six-Day War",                        "object": "1967" },
+      { "subject": "War of 1812",                        "object": "1812" },
+      { "subject": "Spanish–American War",               "object": "1898" },
+      { "subject": "Crimean War",                        "object": "1853" },
+      { "subject": "Thirty Years' War",                  "object": "1618" },
+      { "subject": "Hundred Years' War",                  "object": "1337" },
+      { "subject": "Seven Years' War",                   "object": "1756" },
+      { "subject": "Mexican–American War",               "object": "1846" },
+      { "subject": "Anglo–Zulu War",                     "object": "1879" },
+      { "subject": "Falklands War",                      "object": "1982" },
+      { "subject": "Persian Gulf War",                   "object": "1990" },
+      { "subject": "Sino–Japanese War",                  "object": "1894" },
+      { "subject": "Iran–Iraq War",                      "object": "1980" },
+      { "subject": "Boer War",                           "object": "1899" },
+      { "subject": "Great Northern War",                 "object": "1700" },
+      { "subject": "American Revolutionary War",         "object": "1775" },
+      { "subject": "Russian Civil War",                  "object": "1917" },
+      { "subject": "Spanish Civil War",                  "object": "1936" },
+      { "subject": "Cambodian Civil War",                "object": "1967" }
+    ]
+  }

@@ -1,0 +1,9 @@
+{
+    "model_name": "gptj",
+    "relation_name": "opposition leader in parliament",
+    "h_layer": 18,
+    "beta": 3.3333333333333335,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 8
+}

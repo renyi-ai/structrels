@@ -1,0 +1,9 @@
+{
+    "model_name": "gptj",
+    "relation_name": "public building in a city",
+    "h_layer": 15,
+    "beta": 3.1666666666666665,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 6
+}

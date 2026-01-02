@@ -1,0 +1,9 @@
+{
+    "model_name": "llama",
+    "relation_name": "plays pro sport",
+    "h_layer": 20,
+    "beta": 7.5,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 5
+}

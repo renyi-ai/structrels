@@ -1,0 +1,95 @@
+{
+    "name": "number divided by 11",
+    "prompt_templates": [
+        "{} divided by 11 is"
+    ],
+    "prompt_templates_zs": [
+        "When you take a {}, dividing it by 11 gives you a result of ",
+        "The result of dividing {} by 11 is ",
+        "If you divide a {} by 11, the outcome is "
+    ],
+    "properties": {
+        "relation_type": "mathematical",
+        "domain_name": "integers",
+        "range_name": "integers",
+        "symmetric": false
+    },
+    "samples": [
+        {
+            "subject": "-99",
+            "object": "-9"
+        },
+        {
+            "subject": "-88",
+            "object": "-8"
+        },
+        {
+            "subject": "-77",
+            "object": "-7"
+        },
+        {
+            "subject": "-66",
+            "object": "-6"
+        },
+        {
+            "subject": "-55",
+            "object": "-5"
+        },
+        {
+            "subject": "-44",
+            "object": "-4"
+        },
+        {
+            "subject": "-33",
+            "object": "-3"
+        },
+        {
+            "subject": "-22",
+            "object": "-2"
+        },
+        {
+            "subject": "-11",
+            "object": "-1"
+        },
+        {
+            "subject": "0",
+            "object": "0"
+        },
+        {
+            "subject": "11",
+            "object": "1"
+        },
+        {
+            "subject": "22",
+            "object": "2"
+        },
+        {
+            "subject": "33",
+            "object": "3"
+        },
+        {
+            "subject": "44",
+            "object": "4"
+        },
+        {
+            "subject": "55",
+            "object": "5"
+        },
+        {
+            "subject": "66",
+            "object": "6"
+        },
+        {
+            "subject": "77",
+            "object": "7"
+        },
+        {
+            "subject": "88",
+            "object": "8"
+        },
+        {
+            "subject": "99",
+            "object": "9"
+        }
+    ]
+}

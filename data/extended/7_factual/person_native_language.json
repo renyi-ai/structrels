@@ -1,0 +1,414 @@
+{
+    "name": "person native language",
+    "prompt_templates": [
+        "{} speaks the language of"
+    ],
+    "prompt_templates_zs": [
+        "{} speaks the language of",
+        "What language does {} speak? They speak"
+    ],
+    "properties": {
+        "relation_type": "factual",
+        "domain_name": "person",
+        "range_name": "language",
+        "symmetric": false
+    },
+    "samples": [
+        {
+            "subject": "Danielle Darrieux",
+            "object": "French"
+        },
+        {
+            "subject": "Thomas Joannes Stieltjes",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Michel Denisot",
+            "object": "French"
+        },
+        {
+            "subject": "Go Hyeon-jeong",
+            "object": "Korean"
+        },
+        {
+            "subject": "Jean Gaven",
+            "object": "French"
+        },
+        {
+            "subject": "Symeon of Polotsk",
+            "object": "Russian"
+        },
+        {
+            "subject": "Jean Galland",
+            "object": "French"
+        },
+        {
+            "subject": "Tanya Lopert",
+            "object": "French"
+        },
+        {
+            "subject": "Stefanos Stratigos",
+            "object": "Greek"
+        },
+        {
+            "subject": "Gwen Stefani",
+            "object": "English"
+        },
+        {
+            "subject": "Paul Biegel",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Cees Nooteboom",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Pierre Messmer",
+            "object": "French"
+        },
+        {
+            "subject": "Ilya Ehrenburg",
+            "object": "Russian"
+        },
+        {
+            "subject": "Dominique Perben",
+            "object": "French"
+        },
+        {
+            "subject": "Julien Courbet",
+            "object": "French"
+        },
+        {
+            "subject": "Alain Robbe-Grillet",
+            "object": "French"
+        },
+        {
+            "subject": "Jalil Lespert",
+            "object": "French"
+        },
+        {
+            "subject": "Xavier Saint-Macary",
+            "object": "French"
+        },
+        {
+            "subject": "Anatole France",
+            "object": "French"
+        },
+        {
+            "subject": "Christian Bouchet",
+            "object": "French"
+        },
+        {
+            "subject": "Leslie Caron",
+            "object": "French"
+        },
+        {
+            "subject": "Fabrice Luchini",
+            "object": "French"
+        },
+        {
+            "subject": "Blanchette Brunoy",
+            "object": "French"
+        },
+        {
+            "subject": "Adriaan van Dis",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Louis Bonaparte",
+            "object": "French"
+        },
+        {
+            "subject": "Miguel de Cervantes",
+            "object": "Spanish"
+        },
+        {
+            "subject": "Jean Marot",
+            "object": "French"
+        },
+        {
+            "subject": "Toine Manders",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Ivan Ivanov-Vano",
+            "object": "Russian"
+        },
+        {
+            "subject": "Maurice Renard",
+            "object": "French"
+        },
+        {
+            "subject": "Henri Decoin",
+            "object": "French"
+        },
+        {
+            "subject": "Claude Rich",
+            "object": "French"
+        },
+        {
+            "subject": "Blaise Pascal",
+            "object": "French"
+        },
+        {
+            "subject": "Jean Giraudoux",
+            "object": "French"
+        },
+        {
+            "subject": "Pierre Brasseur",
+            "object": "French"
+        },
+        {
+            "subject": "Freek de Jonge",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Pierre Reverdy",
+            "object": "French"
+        },
+        {
+            "subject": "Marcelin Pleynet",
+            "object": "French"
+        },
+        {
+            "subject": "Dominique Lapierre",
+            "object": "French"
+        },
+        {
+            "subject": "Jean-Baptiste Henri Lacordaire",
+            "object": "French"
+        },
+        {
+            "subject": "Henri Gault",
+            "object": "French"
+        },
+        {
+            "subject": "Imanol Arias",
+            "object": "Spanish"
+        },
+        {
+            "subject": "Ilya Nikolaevich Ulyanov",
+            "object": "Russian"
+        },
+        {
+            "subject": "Boris Asafyev",
+            "object": "Russian"
+        },
+        {
+            "subject": "Nadezhda Krupskaya",
+            "object": "Russian"
+        },
+        {
+            "subject": "Clio Goldsmith",
+            "object": "French"
+        },
+        {
+            "subject": "Didier Daeninckx",
+            "object": "French"
+        },
+        {
+            "subject": "Grigore Moisil",
+            "object": "Romanian"
+        },
+        {
+            "subject": "Paul Citroen",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Riebeeck Jan Van",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Paul Frankeur",
+            "object": "French"
+        },
+        {
+            "subject": "Francis Jammes",
+            "object": "French"
+        },
+        {
+            "subject": "Hendrik Lorentz",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Jules Barbier",
+            "object": "French"
+        },
+        {
+            "subject": "Maurice Schutz",
+            "object": "French"
+        },
+        {
+            "subject": "Joseph Buonaparte",
+            "object": "French"
+        },
+        {
+            "subject": "Kannadasan",
+            "object": "Tamil"
+        },
+        {
+            "subject": "Vladimir Bukovsky",
+            "object": "Russian"
+        },
+        {
+            "subject": "Tonino Benacquista",
+            "object": "French"
+        },
+        {
+            "subject": "Pierre Blanchar",
+            "object": "French"
+        },
+        {
+            "subject": "Paul-Jean Toulet",
+            "object": "French"
+        },
+        {
+            "subject": "Andreas Karkavitsas",
+            "object": "Greek"
+        },
+        {
+            "subject": "Pierre Schneiter",
+            "object": "French"
+        },
+        {
+            "subject": "Marcel Ichac",
+            "object": "French"
+        },
+        {
+            "subject": "Nie Weiping",
+            "object": "Chinese"
+        },
+        {
+            "subject": "Jacobus Revius",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Emmanuel Macron",
+            "object": "French"
+        },
+        {
+            "subject": "Ivan Puni",
+            "object": "Russian"
+        },
+        {
+            "subject": "Fred Vargas",
+            "object": "French"
+        },
+        {
+            "subject": "Roland Armontel",
+            "object": "French"
+        },
+        {
+            "subject": "Maurice Biraud",
+            "object": "French"
+        },
+        {
+            "subject": "Giovanni Boccaccio",
+            "object": "Italian"
+        },
+        {
+            "subject": "Kim Philby",
+            "object": "English"
+        },
+        {
+            "subject": "Lindsey Davis",
+            "object": "English"
+        },
+        {
+            "subject": "Isabelle Autissier",
+            "object": "French"
+        },
+        {
+            "subject": "Xavier Beauvois",
+            "object": "French"
+        },
+        {
+            "subject": "Jean-Claude Izzo",
+            "object": "French"
+        },
+        {
+            "subject": "Edwy Plenel",
+            "object": "French"
+        },
+        {
+            "subject": "Nicolas Giraud",
+            "object": "French"
+        },
+        {
+            "subject": "Roger Coggio",
+            "object": "French"
+        },
+        {
+            "subject": "Alain Mabanckou",
+            "object": "French"
+        },
+        {
+            "subject": "Joseph Conombo",
+            "object": "French"
+        },
+        {
+            "subject": "Mathieu de Montmorency",
+            "object": "French"
+        },
+        {
+            "subject": "Olga Medvedtseva",
+            "object": "Russian"
+        },
+        {
+            "subject": "Eduardo Duhalde",
+            "object": "Spanish"
+        },
+        {
+            "subject": "Menno ter Braak",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Alex Ferguson",
+            "object": "English"
+        },
+        {
+            "subject": "Jean-Sifrein Maury",
+            "object": "French"
+        },
+        {
+            "subject": "Giuseppe Saronni",
+            "object": "Italian"
+        },
+        {
+            "subject": "Michel-Jean Sedaine",
+            "object": "French"
+        },
+        {
+            "subject": "Eugene Kaspersky",
+            "object": "Russian"
+        },
+        {
+            "subject": "Lee Chang-dong",
+            "object": "Korean"
+        },
+        {
+            "subject": "Paul Collin",
+            "object": "French"
+        },
+        {
+            "subject": "Maarten Tromp",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Vladimir Vinogradov",
+            "object": "Russian"
+        },
+        {
+            "subject": "Suzy Vernon",
+            "object": "French"
+        },
+        {
+            "subject": "Jacques Doriot",
+            "object": "French"
+        },
+        {
+            "subject": "Pyotr Vyazemsky",
+            "object": "Russian"
+        }
+    ]
+}

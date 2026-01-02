@@ -1,0 +1,9 @@
+{
+    "model_name": "neox",
+    "relation_name": "adjective superlative",
+    "h_layer": 10,
+    "beta": 4.25,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 6
+}

@@ -1,0 +1,181 @@
+{
+  "name": "mathematical theorem named after mathematician",
+  "prompt_templates": [
+    "What is the mathematical theorem named after {}?",
+    "Can you tell me the theorem that is associated with the mathematician {}?",
+    "What theorem is named after the mathematician {}?"
+  ],
+  "prompt_templates_zs": [
+    "What is the mathematical theorem named after {}?",
+    "Can you provide the name of the theorem associated with the mathematician {}?",
+    "Please tell me the theorem that is named after {}."
+  ],
+  "properties": {
+    "relation_type": "scientificrelations",
+    "domain_name": "Mathematician",
+    "range_name": "Theorem Name",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Pythagoras",
+      "object": "Pythagorean Theorem"
+    },
+    {
+      "subject": "Fermat",
+      "object": "Fermat's Last Theorem"
+    },
+    {
+      "subject": "Gauss",
+      "object": "Gauss's Theorem"
+    },
+    {
+      "subject": "Euler",
+      "object": "Euler's Formula"
+    },
+    {
+      "subject": "Cauchy",
+      "object": "Cauchy's Integral Theorem"
+    },
+    {
+      "subject": "Lagrange",
+      "object": "Lagrange's Theorem"
+    },
+    {
+      "subject": "Noether",
+      "object": "Noether's Theorem"
+    },
+    {
+      "subject": "Bayes",
+      "object": "Bayes' Theorem"
+    },
+    {
+      "subject": "Green",
+      "object": "Green's Theorem"
+    },
+    {
+      "subject": "Stokes",
+      "object": "Stokes' Theorem"
+    },
+    {
+      "subject": "Riemann",
+      "object": "Riemann Mapping Theorem"
+    },
+    {
+      "subject": "Cantor",
+      "object": "Cantor's Theorem"
+    },
+    {
+      "subject": "Taylor",
+      "object": "Taylor's Theorem"
+    },
+    {
+      "subject": "Maclaurin",
+      "object": "Maclaurin Series"
+    },
+    {
+      "subject": "Weierstrass",
+      "object": "Weierstrass Approximation Theorem"
+    },
+    {
+      "subject": "Banach",
+      "object": "Banach Fixed Point Theorem"
+    },
+    {
+      "subject": "Brouwer",
+      "object": "Brouwer Fixed Point Theorem"
+    },
+    {
+      "subject": "Bolzano",
+      "object": "Bolzano's Theorem"
+    },
+    {
+      "subject": "Rolle",
+      "object": "Rolle's Theorem"
+    },
+    {
+      "subject": "L'Hôpital",
+      "object": "L'Hôpital's Rule"
+    },
+    {
+      "subject": "Sylow",
+      "object": "Sylow's Theorems"
+    },
+    {
+      "subject": "Ramsey",
+      "object": "Ramsey's Theorem"
+    },
+    {
+      "subject": "Zorn",
+      "object": "Zorn's Lemma"
+    },
+    {
+      "subject": "Hahn",
+      "object": "Hahn-Banach Theorem"
+    },
+    {
+      "subject": "Fubini",
+      "object": "Fubini's Theorem"
+    },
+    {
+      "subject": "Fatou",
+      "object": "Fatou's Lemma"
+    },
+    {
+      "subject": "Kruskal",
+      "object": "Kruskal's Tree Theorem"
+    },
+    {
+      "subject": "Schur",
+      "object": "Schur's Theorem"
+    },
+    {
+      "subject": "Minkowski",
+      "object": "Minkowski's Theorem"
+    },
+    {
+      "subject": "Helly",
+      "object": "Helly's Theorem"
+    },
+    {
+      "subject": "De Morgan",
+      "object": "De Morgan's Laws"
+    },
+    {
+      "subject": "Hardy",
+      "object": "Hardy's Theorem"
+    },
+    {
+      "subject": "Littlewood",
+      "object": "Littlewood's Theorem"
+    },
+    {
+      "subject": "Gödel",
+      "object": "Gödel's Incompleteness Theorems"
+    },
+    {
+      "subject": "Turing",
+      "object": "Turing's Halting Theorem"
+    },
+    {
+      "subject": "Carathéodory",
+      "object": "Carathéodory's Extension Theorem"
+    },
+    {
+      "subject": "Cramér",
+      "object": "Cramér's Theorem"
+    },
+    {
+      "subject": "Kolmogorov",
+      "object": "Kolmogorov's Zero-One Law"
+    },
+    {
+      "subject": "Stone",
+      "object": "Stone-Weierstrass Theorem"
+    },
+    {
+      "subject": "Perron",
+      "object": "Perron-Frobenius Theorem"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+    "model_name": "neox",
+    "relation_name": "company hq",
+    "h_layer": 23,
+    "beta": 0.75,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 15
+}

@@ -1,0 +1,177 @@
+{
+  "name": "independence movement of country",
+  "prompt_templates": [
+    "What was the year and country associated with the independence movement of {}?",
+    "Can you provide the country and year related to the independence movement of {}?",
+    "Please state the country and the year of independence for the movement known as {}."
+  ],
+  "prompt_templates_zs": [
+    "What is the year and country associated with the independence movement of {}?",
+    "Please provide the country and year related to the independence movement of {}.",
+    "Identify the country and year that correspond to the independence movement of {}."
+  ],
+  "properties": {
+    "relation_type": "historicalrelations",
+    "domain_name": "country",
+    "range_name": "independence movement",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Indian Independence Movement",
+      "object": "India, 1947"
+    },
+    {
+      "subject": "Irish War of Independence",
+      "object": "Ireland, 1921"
+    },
+    {
+      "subject": "Algerian War of Independence",
+      "object": "Algeria, 1962"
+    },
+    {
+      "subject": "Vietnamese Independence Movement",
+      "object": "Vietnam, 1954"
+    },
+    {
+      "subject": "Cuban Revolution",
+      "object": "Cuba, 1959"
+    },
+    {
+      "subject": "Ghanaian Independence",
+      "object": "Ghana, 1957"
+    },
+    {
+      "subject": "Kenyan Independence Movement",
+      "object": "Kenya, 1963"
+    },
+    {
+      "subject": "Indonesian National Revolution",
+      "object": "Indonesia, 1949"
+    },
+    {
+      "subject": "Philippine Revolution",
+      "object": "Philippines, 1898"
+    },
+    {
+      "subject": "Egyptian Revolution of 1919",
+      "object": "Egypt, 1922"
+    },
+    {
+      "subject": "Bangladeshi Liberation War",
+      "object": "Bangladesh, 1971"
+    },
+    {
+      "subject": "Syrian Independence Movement",
+      "object": "Syria, 1946"
+    },
+    {
+      "subject": "Lebanese Independence",
+      "object": "Lebanon, 1943"
+    },
+    {
+      "subject": "Pakistani Independence Movement",
+      "object": "Pakistan, 1947"
+    },
+    {
+      "subject": "Sri Lankan Independence",
+      "object": "Sri Lanka, 1948"
+    },
+    {
+      "subject": "Nigerian Independence Movement",
+      "object": "Nigeria, 1960"
+    },
+    {
+      "subject": "Zimbabwean Independence",
+      "object": "Zimbabwe, 1980"
+    },
+    {
+      "subject": "Israeli Independence Movement",
+      "object": "Israel, 1948"
+    },
+    {
+      "subject": "Cambodian Independence",
+      "object": "Cambodia, 1953"
+    },
+    {
+      "subject": "Burmese Independence Movement",
+      "object": "Myanmar, 1948"
+    },
+    {
+      "subject": "Malaysian Independence Movement",
+      "object": "Malaysia, 1957"
+    },
+    {
+      "subject": "Singaporean Separation",
+      "object": "Singapore, 1965"
+    },
+    {
+      "subject": "Mozambican Independence",
+      "object": "Mozambique, 1975"
+    },
+    {
+      "subject": "Angolan Independence",
+      "object": "Angola, 1975"
+    },
+    {
+      "subject": "Ivorian Independence",
+      "object": "Ivory Coast, 1960"
+    },
+    {
+      "subject": "Senegalese Independence",
+      "object": "Senegal, 1960"
+    },
+    {
+      "subject": "Tunisian Independence",
+      "object": "Tunisia, 1956"
+    },
+    {
+      "subject": "Libyan Independence",
+      "object": "Libya, 1951"
+    },
+    {
+      "subject": "Sudanese Independence",
+      "object": "Sudan, 1956"
+    },
+    {
+      "subject": "Eritrean Independence",
+      "object": "Eritrea, 1993"
+    },
+    {
+      "subject": "Namibian Independence",
+      "object": "Namibia, 1990"
+    },
+    {
+      "subject": "Afghan Independence Movement",
+      "object": "Afghanistan, 1919"
+    },
+    {
+      "subject": "Somali Independence",
+      "object": "Somalia, 1960"
+    },
+    {
+      "subject": "Guatemalan Independence",
+      "object": "Guatemala, 1821"
+    },
+    {
+      "subject": "Haitian Revolution",
+      "object": "Haiti, 1804"
+    },
+    {
+      "subject": "Paraguayan Independence",
+      "object": "Paraguay, 1811"
+    },
+    {
+      "subject": "Argentine War of Independence",
+      "object": "Argentina, 1816"
+    },
+    {
+      "subject": "Chilean Independence",
+      "object": "Chile, 1818"
+    },
+    {
+      "subject": "Bolivian Independence",
+      "object": "Bolivia, 1825"
+    }
+  ]
+}

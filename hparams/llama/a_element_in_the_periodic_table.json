@@ -1,0 +1,9 @@
+{
+    "model_name": "llama",
+    "relation_name": "a element in the periodic table",
+    "h_layer": 17,
+    "beta": 5.5,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 3
+}

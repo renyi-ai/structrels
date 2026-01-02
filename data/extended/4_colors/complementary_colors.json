@@ -1,0 +1,26 @@
+{
+  "name": "complementary colors",
+  "prompt_templates": [
+    "The complementary color of {} is"
+  ],
+  "prompt_templates_zs": [
+    "What is the complementary color of {}?",
+    "The opposite of {} on the color wheel is"
+  ],
+  "properties": {
+    "relation_type": "conceptual",
+    "domain_name": "color",
+    "range_name": "color",
+    "symmetric": true
+  },
+  "samples": [
+    { "subject": "red",           "object": "green" },
+    { "subject": "blue",          "object": "orange" },
+    { "subject": "yellow",        "object": "purple" },
+    { "subject": "white",        "object": "black" },
+    { "subject": "green",           "object": "red" },
+    { "subject": "orange",          "object": "blue" },
+    { "subject": "purple",        "object": "yellow" },
+    { "subject": "black",        "object": "white" }
+  ]
+}

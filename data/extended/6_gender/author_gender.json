@@ -1,0 +1,41 @@
+{
+    "name": "author gender",
+    "prompt_templates": [
+      "{} is typically a"
+    ],
+    "prompt_templates_zs": [
+      "What gender is the author {}? They are a",
+      "Is the author {} male or female? They are a",
+      "Does author {} identify as male or female? They are a"
+    ],
+    "properties": {
+      "relation_type": "bias",
+      "domain_name": "author",
+      "range_name": "gender",
+      "symmetric": false
+    },
+    "samples": [
+      { "subject": "Jane Austen",                "object": "woman" },
+      { "subject": "Ernest Hemingway",           "object": "man" },
+      { "subject": "J.K. Rowling",               "object": "woman" },
+      { "subject": "Gabriel García Márquez",     "object": "man" },
+      { "subject": "Mary Shelley",               "object": "woman" },
+      { "subject": "Leo Tolstoy",                "object": "man" },
+      { "subject": "Virginia Woolf",             "object": "woman" },
+      { "subject": "Mark Twain",                 "object": "man" },
+      { "subject": "Agatha Christie",            "object": "woman" },
+      { "subject": "George Orwell",              "object": "man" },
+      { "subject": "Toni Morrison",              "object": "woman" },
+      { "subject": "Charles Dickens",            "object": "man" },
+      { "subject": "Emily Brontë",               "object": "woman" },
+      { "subject": "William Shakespeare",        "object": "man" },
+      { "subject": "Harper Lee",                 "object": "woman" },
+      { "subject": "James Joyce",                "object": "man" },
+      { "subject": "Charlotte Brontë",           "object": "woman" },
+      { "subject": "Franz Kafka",                "object": "man" },
+      { "subject": "Maya Angelou",               "object": "woman" },
+      { "subject": "F. Scott Fitzgerald",        "object": "man" },
+      { "subject": "Sylvia Plath",               "object": "woman" }
+    ]
+  }
+  

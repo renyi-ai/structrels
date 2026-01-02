@@ -1,0 +1,71 @@
+{
+    "name": "number times 16",
+    "prompt_templates": [
+        "{} times by 16 is"
+    ],
+    "prompt_templates_zs": [
+        "If a number is multiplied by 16, it equals ",
+        "When you take a {} and multiply it by 16, the result is ",
+        "To find the value of a {}, you can calculate {} times 16, which gives you "
+    ],
+    "properties": {
+        "relation_type": "mathematical",
+        "domain_name": "integers",
+        "range_name": "integers",
+        "symmetric": false
+    },
+    "samples": [
+        {
+            "subject": "-6",
+            "object": "-96"
+        },
+        {
+            "subject": "-5",
+            "object": "-80"
+        },
+        {
+            "subject": "-4",
+            "object": "-64"
+        },
+        {
+            "subject": "-3",
+            "object": "-48"
+        },
+        {
+            "subject": "-2",
+            "object": "-32"
+        },
+        {
+            "subject": "-1",
+            "object": "-16"
+        },
+        {
+            "subject": "0",
+            "object": "0"
+        },
+        {
+            "subject": "1",
+            "object": "16"
+        },
+        {
+            "subject": "2",
+            "object": "32"
+        },
+        {
+            "subject": "3",
+            "object": "48"
+        },
+        {
+            "subject": "4",
+            "object": "64"
+        },
+        {
+            "subject": "5",
+            "object": "80"
+        },
+        {
+            "subject": "6",
+            "object": "96"
+        }
+    ]
+}

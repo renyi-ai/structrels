@@ -1,0 +1,176 @@
+{
+  "name": "electoral commissioner of country",
+  "prompt_templates": [
+    "Can you tell me the country for the electoral commissioner named {}?",
+    "In which country does the electoral commissioner {} serve?"
+  ],
+  "prompt_templates_zs": [
+    "What country does {} serve as electoral commissioner?",
+    "In which country is {} the electoral commissioner?",
+    "Identify the country where {} holds the position of electoral commissioner."
+  ],
+  "properties": {
+    "relation_type": "politicalrelations",
+    "domain_name": "country",
+    "range_name": "electoral commissioner",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Ann Ravel",
+      "object": "United States"
+    },
+    {
+      "subject": "Jenny Watson",
+      "object": "United Kingdom"
+    },
+    {
+      "subject": "Jean-Pierre Kingsley",
+      "object": "Canada"
+    },
+    {
+      "subject": "Jessica Appleby",
+      "object": "Australia"
+    },
+    {
+      "subject": "Sushil Chandra",
+      "object": "India"
+    },
+    {
+      "subject": "Kamaljit Bawa",
+      "object": "South Africa"
+    },
+    {
+      "subject": "Mahmud Yakubu",
+      "object": "Nigeria"
+    },
+    {
+      "subject": "Hossam Mostafa",
+      "object": "Egypt"
+    },
+    {
+      "subject": "İlhan Kesici",
+      "object": "Turkey"
+    },
+    {
+      "subject": "Mordechai Ratzon",
+      "object": "Israel"
+    },
+    {
+      "subject": "Hasyim Asyari",
+      "object": "Indonesia"
+    },
+    {
+      "subject": "Sardar Muhammad Raza Khan",
+      "object": "Pakistan"
+    },
+    {
+      "subject": "Kazi Habibul Awal",
+      "object": "Bangladesh"
+    },
+    {
+      "subject": "Wafula Chebukati",
+      "object": "Kenya"
+    },
+    {
+      "subject": "Jean Adukwei Mensa",
+      "object": "Ghana"
+    },
+    {
+      "subject": "Issa Baluku",
+      "object": "Uganda"
+    },
+    {
+      "subject": "Evelyn Masaiti",
+      "object": "Zimbabwe"
+    },
+    {
+      "subject": "Andrzej Nowak",
+      "object": "Poland"
+    },
+    {
+      "subject": "Cristian Vasilică",
+      "object": "Romania"
+    },
+    {
+      "subject": "Gábor Gál",
+      "object": "Hungary"
+    },
+    {
+      "subject": "Petr Čmejla",
+      "object": "Czech Republic"
+    },
+    {
+      "subject": "Ivan Kamenec",
+      "object": "Slovakia"
+    },
+    {
+      "subject": "Vlado Marić",
+      "object": "Slovenia"
+    },
+    {
+      "subject": "Marijan Čavić",
+      "object": "Croatia"
+    },
+    {
+      "subject": "Petros Clerides",
+      "object": "Cyprus"
+    },
+    {
+      "subject": "Athanasios Provias",
+      "object": "Greece"
+    },
+    {
+      "subject": "Birgit Berr",
+      "object": "Austria"
+    },
+    {
+      "subject": "Frans Van Grieken",
+      "object": "Belgium"
+    },
+    {
+      "subject": "Yves Rossier",
+      "object": "Switzerland"
+    },
+    {
+      "subject": "Karl Le Quesne",
+      "object": "New Zealand"
+    },
+    {
+      "subject": "Patricia McCaughey",
+      "object": "Ireland"
+    },
+    {
+      "subject": "Takashi Wada",
+      "object": "Japan"
+    },
+    {
+      "subject": "Kim Jong-ho",
+      "object": "South Korea"
+    },
+    {
+      "subject": "Susana Poblete",
+      "object": "Chile"
+    },
+    {
+      "subject": "Eugenio Bouchard",
+      "object": "Argentina"
+    },
+    {
+      "subject": "Rodrigo Brito",
+      "object": "Brazil"
+    },
+    {
+      "subject": "Miguel Acosta",
+      "object": "Mexico"
+    },
+    {
+      "subject": "Carlos Fernando Galán",
+      "object": "Colombia"
+    },
+    {
+      "subject": "Vicente Díaz",
+      "object": "Venezuela"
+    }
+  ]
+}

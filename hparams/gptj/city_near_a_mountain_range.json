@@ -1,0 +1,9 @@
+{
+    "model_name": "gptj",
+    "relation_name": "city near a mountain range",
+    "h_layer": 10,
+    "beta": 1.3333333333333333,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 4
+}

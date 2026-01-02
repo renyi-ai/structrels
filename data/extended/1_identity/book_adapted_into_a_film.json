@@ -1,0 +1,181 @@
+{
+  "name": "book adapted into a film",
+  "prompt_templates": [
+    "What is the film adaptation of the book {}?",
+    "Which film was based on the book {}?",
+    "Can you name the movie that was adapted from the book {}?"
+  ],
+  "prompt_templates_zs": [
+    "What is the title of the film that was adapted from the book in {}?",
+    "Identify the book that was turned into the film titled {}.",
+    "Can you name the book that corresponds to the film adaptation of {}?"
+  ],
+  "properties": {
+    "relation_type": "literaryrelations",
+    "domain_name": "Literary Work",
+    "range_name": "Film Adaptation",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "The Godfather",
+      "object": "The Godfather"
+    },
+    {
+      "subject": "To Kill a Mockingbird",
+      "object": "To Kill a Mockingbird"
+    },
+    {
+      "subject": "The Shining",
+      "object": "The Shining"
+    },
+    {
+      "subject": "The Lord of the Rings",
+      "object": "The Lord of the Rings"
+    },
+    {
+      "subject": "Harry Potter and the Philosopher's Stone",
+      "object": "Harry Potter and the Philosopher's Stone"
+    },
+    {
+      "subject": "Jurassic Park",
+      "object": "Jurassic Park"
+    },
+    {
+      "subject": "Fight Club",
+      "object": "Fight Club"
+    },
+    {
+      "subject": "Gone Girl",
+      "object": "Gone Girl"
+    },
+    {
+      "subject": "The Silence of the Lambs",
+      "object": "The Silence of the Lambs"
+    },
+    {
+      "subject": "No Country for Old Men",
+      "object": "No Country for Old Men"
+    },
+    {
+      "subject": "The Girl with the Dragon Tattoo",
+      "object": "The Girl with the Dragon Tattoo"
+    },
+    {
+      "subject": "Forrest Gump",
+      "object": "Forrest Gump"
+    },
+    {
+      "subject": "The Da Vinci Code",
+      "object": "The Da Vinci Code"
+    },
+    {
+      "subject": "Pride and Prejudice",
+      "object": "Pride and Prejudice"
+    },
+    {
+      "subject": "A Clockwork Orange",
+      "object": "A Clockwork Orange"
+    },
+    {
+      "subject": "The Hobbit",
+      "object": "The Hobbit"
+    },
+    {
+      "subject": "Dune",
+      "object": "Dune"
+    },
+    {
+      "subject": "The Great Gatsby",
+      "object": "The Great Gatsby"
+    },
+    {
+      "subject": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+      "object": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe"
+    },
+    {
+      "subject": "The Maze Runner",
+      "object": "The Maze Runner"
+    },
+    {
+      "subject": "The Hunger Games",
+      "object": "The Hunger Games"
+    },
+    {
+      "subject": "The Fault in Our Stars",
+      "object": "The Fault in Our Stars"
+    },
+    {
+      "subject": "The Perks of Being a Wallflower",
+      "object": "The Perks of Being a Wallflower"
+    },
+    {
+      "subject": "The Outsiders",
+      "object": "The Outsiders"
+    },
+    {
+      "subject": "Little Women",
+      "object": "Little Women"
+    },
+    {
+      "subject": "The Color Purple",
+      "object": "The Color Purple"
+    },
+    {
+      "subject": "Memoirs of a Geisha",
+      "object": "Memoirs of a Geisha"
+    },
+    {
+      "subject": "The Bridges of Madison County",
+      "object": "The Bridges of Madison County"
+    },
+    {
+      "subject": "The Notebook",
+      "object": "The Notebook"
+    },
+    {
+      "subject": "One Flew Over the Cuckoo's Nest",
+      "object": "One Flew Over the Cuckoo's Nest"
+    },
+    {
+      "subject": "Breakfast at Tiffany's",
+      "object": "Breakfast at Tiffany's"
+    },
+    {
+      "subject": "The Rum Diary",
+      "object": "The Rum Diary"
+    },
+    {
+      "subject": "The Handmaid's Tale",
+      "object": "The Handmaid's Tale"
+    },
+    {
+      "subject": "Atonement",
+      "object": "Atonement"
+    },
+    {
+      "subject": "The English Patient",
+      "object": "The English Patient"
+    },
+    {
+      "subject": "Room",
+      "object": "Room"
+    },
+    {
+      "subject": "Life of Pi",
+      "object": "Life of Pi"
+    },
+    {
+      "subject": "Cloud Atlas",
+      "object": "Cloud Atlas"
+    },
+    {
+      "subject": "The Book Thief",
+      "object": "The Book Thief"
+    },
+    {
+      "subject": "The Secret Life of Bees",
+      "object": "The Secret Life of Bees"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "name": "semiconductor chip manufactured by company",
+  "prompt_templates": [
+    "What company manufactures the semiconductor chip {}?",
+    "Which company is responsible for the production of the semiconductor chip {}?",
+    "Can you tell me the name of the company that created the semiconductor chip {}?"
+  ],
+  "prompt_templates_zs": [
+    "What company produces the semiconductor chip {}?",
+    "Identify the manufacturer of the semiconductor chip {}.",
+    "Which company is responsible for making the semiconductor chip {}?"
+  ],
+  "properties": {
+    "relation_type": "technologicalrelations",
+    "domain_name": "Chip Model",
+    "range_name": "Chip Manufacturer",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Intel Core i7",
+      "object": "Intel"
+    },
+    {
+      "subject": "AMD Ryzen 7",
+      "object": "AMD"
+    },
+    {
+      "subject": "Nvidia GeForce RTX 3080",
+      "object": "Nvidia"
+    },
+    {
+      "subject": "Qualcomm Snapdragon 888",
+      "object": "Qualcomm"
+    },
+    {
+      "subject": "Apple A14 Bionic",
+      "object": "Apple Inc."
+    },
+    {
+      "subject": "Samsung Exynos 2100",
+      "object": "Samsung"
+    },
+    {
+      "subject": "MediaTek Dimensity 1200",
+      "object": "MediaTek"
+    },
+    {
+      "subject": "Broadcom BCM4360",
+      "object": "Broadcom"
+    },
+    {
+      "subject": "TI OMAP",
+      "object": "Texas Instruments"
+    },
+    {
+      "subject": "IBM POWER9",
+      "object": "IBM"
+    },
+    {
+      "subject": "VIA Nano",
+      "object": "VIA Technologies"
+    },
+    {
+      "subject": "ARM Cortex-A78",
+      "object": "ARM Holdings"
+    },
+    {
+      "subject": "Intel Xeon",
+      "object": "Intel"
+    },
+    {
+      "subject": "AMD EPYC",
+      "object": "AMD"
+    },
+    {
+      "subject": "Nvidia Tegra X1",
+      "object": "Nvidia"
+    },
+    {
+      "subject": "Qualcomm Adreno 660",
+      "object": "Qualcomm"
+    },
+    {
+      "subject": "Samsung Mongoose CPU",
+      "object": "Samsung"
+    },
+    {
+      "subject": "Apple M1",
+      "object": "Apple Inc."
+    },
+    {
+      "subject": "AMD Radeon RX 6800",
+      "object": "AMD"
+    },
+    {
+      "subject": "Nvidia Tesla V100",
+      "object": "Nvidia"
+    },
+    {
+      "subject": "Broadcom Trident 3",
+      "object": "Broadcom"
+    },
+    {
+      "subject": "MediaTek Helio G95",
+      "object": "MediaTek"
+    },
+    {
+      "subject": "Intel Atom",
+      "object": "Intel"
+    },
+    {
+      "subject": "AMD Ryzen 5 3400G",
+      "object": "AMD"
+    },
+    {
+      "subject": "Qualcomm Snapdragon 865",
+      "object": "Qualcomm"
+    },
+    {
+      "subject": "Samsung Exynos 990",
+      "object": "Samsung"
+    },
+    {
+      "subject": "Intel Pentium Silver",
+      "object": "Intel"
+    },
+    {
+      "subject": "Nvidia Jetson Nano",
+      "object": "Nvidia"
+    },
+    {
+      "subject": "Marvell ThunderX2",
+      "object": "Marvell"
+    },
+    {
+      "subject": "Xilinx Virtex UltraScale+",
+      "object": "Xilinx"
+    },
+    {
+      "subject": "Altera Stratix 10",
+      "object": "Intel"
+    },
+    {
+      "subject": "NXP i.MX 8",
+      "object": "NXP Semiconductors"
+    },
+    {
+      "subject": "Infineon TriCore",
+      "object": "Infineon Technologies"
+    },
+    {
+      "subject": "Renesas RX",
+      "object": "Renesas Electronics"
+    },
+    {
+      "subject": "STMicroelectronics STM32",
+      "object": "STMicroelectronics"
+    },
+    {
+      "subject": "Analog Devices ADSP-21xx",
+      "object": "Analog Devices"
+    },
+    {
+      "subject": "Microchip PIC",
+      "object": "Microchip Technology"
+    },
+    {
+      "subject": "Cypress PSoC",
+      "object": "Cypress Semiconductor"
+    },
+    {
+      "subject": "ON Semiconductor NCP1117",
+      "object": "ON Semiconductor"
+    }
+  ]
+}

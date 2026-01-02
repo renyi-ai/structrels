@@ -1,0 +1,13 @@
+Third-Party Components
+
+This repository contains third-party software distributed under its own license.
+
+------------------------------------------------------------
+Component: relations
+Path: packages/relations
+License: MIT License
+Copyright: (c) 2022 Evan Hernandez
+
+The full license text for this component is available at:
+packages/relations/LICENSE
+------------------------------------------------------------

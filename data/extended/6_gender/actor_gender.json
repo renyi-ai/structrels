@@ -1,0 +1,45 @@
+{
+    "name": "actor gender",
+    "prompt_templates": [
+      "{} is typically a"
+    ],
+    "prompt_templates_zs": [
+      "What gender is the actor {}? They are a",
+      "Is the actor {} male or female? They are a",
+      "Does {} identify as male or female? They are a"
+    ],
+    "properties": {
+      "relation_type": "bias",
+      "domain_name": "actor",
+      "range_name": "gender",
+      "symmetric": false
+    },
+    "samples": [
+      { "subject": "Meryl Streep",            "object": "woman" },
+      { "subject": "Leonardo DiCaprio",       "object": "man" },
+      { "subject": "Tom Hanks",               "object": "man" },
+      { "subject": "Scarlett Johansson",      "object": "woman" },
+      { "subject": "Denzel Washington",       "object": "man" },
+      { "subject": "Cate Blanchett",          "object": "woman" },
+      { "subject": "Morgan Freeman",          "object": "man" },
+      { "subject": "Jennifer Lawrence",       "object": "woman" },
+      { "subject": "Brad Pitt",               "object": "man" },
+      { "subject": "Julia Roberts",           "object": "woman" },
+      { "subject": "Robert De Niro",          "object": "man" },
+      { "subject": "Nicole Kidman",           "object": "woman" },
+      { "subject": "Johnny Depp",             "object": "man" },
+      { "subject": "Angelina Jolie",          "object": "woman" },
+      { "subject": "Al Pacino",               "object": "man" },
+      { "subject": "Emma Stone",              "object": "woman" },
+      { "subject": "Chris Hemsworth",         "object": "man" },
+      { "subject": "Natalie Portman",         "object": "woman" },
+      { "subject": "Samuel L. Jackson",       "object": "man" },
+      { "subject": "Sandra Bullock",          "object": "woman" },
+      { "subject": "Matt Damon",              "object": "man" },
+      { "subject": "Keira Knightley",         "object": "woman" },
+      { "subject": "Will Smith",              "object": "man" },
+      { "subject": "Anne Hathaway",           "object": "woman" },
+      { "subject": "Hugh Jackman",            "object": "man" }
+    ]
+  }
+  

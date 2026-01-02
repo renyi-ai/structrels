@@ -1,0 +1,9 @@
+{
+    "model_name": "llama",
+    "relation_name": "life stage progression",
+    "h_layer": 3,
+    "beta": 1.5,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 5
+}

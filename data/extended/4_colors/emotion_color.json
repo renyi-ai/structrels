@@ -1,0 +1,32 @@
+{
+  "name": "emotion color",
+  "prompt_templates": [
+    "The color associated with the emotion {} is"
+  ],
+  "prompt_templates_zs": [
+    "{} is represented by the color",
+    "The color for {} is"
+  ],
+  "properties": {
+    "relation_type": "conceptual",
+    "domain_name": "emotion",
+    "range_name": "color",
+    "symmetric": false
+  },
+  "samples": [
+    { "subject": "love",       "object": "red" },
+    { "subject": "passion",    "object": "red" },
+    { "subject": "happiness",  "object": "yellow" },
+    { "subject": "calm",       "object": "blue" },
+    { "subject": "envy",       "object": "green" },
+    { "subject": "creativity", "object": "purple" },
+    { "subject": "purity",     "object": "white" },
+    { "subject": "grief",      "object": "black" },
+    { "subject": "power",      "object": "black" },
+    { "subject": "luxury",     "object": "gold" },
+    { "subject": "cleanliness","object": "white" },
+    { "subject": "innocence",  "object": "white" },
+    { "subject": "growth",     "object": "green" },
+    { "subject": "relaxation", "object": "blue" }
+  ]
+}

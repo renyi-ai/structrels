@@ -1,0 +1,11 @@
+characteristic gender
+univ degree gender
+occupation gender
+fruit inside color
+fruit outside color
+adjective antonym
+adjective comparative
+adjective superlative
+verb past tense
+word first letter
+word last letter

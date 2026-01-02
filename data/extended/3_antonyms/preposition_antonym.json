@@ -1,0 +1,48 @@
+{
+  "name": "preposition antonym",
+  "prompt_templates": [
+    "The opposite of the preposition {} is"
+  ],
+  "prompt_templates_zs": [
+    "The opposite of {} is",
+    "The antonym of {} is"
+  ],
+  "properties": {
+    "relation_type": "linguistic",
+    "domain_name": "preposition",
+    "range_name": "preposition",
+    "symmetric": true
+  },
+  "samples": [
+    { "subject": "in", "object": "out" },
+    { "subject": "into", "object": "out of" },
+    { "subject": "above", "object": "below" },
+    { "subject": "over", "object": "under" },
+    { "subject": "before", "object": "after" },
+    { "subject": "behind", "object": "in front of" },
+    { "subject": "inside", "object": "outside" },
+    { "subject": "on", "object": "off" },
+    { "subject": "up", "object": "down" },
+    { "subject": "to", "object": "from" },
+    { "subject": "toward", "object": "away from" },
+    { "subject": "with", "object": "without" },
+    { "subject": "within", "object": "beyond" },
+    { "subject": "including", "object": "excluding" },
+    { "subject": "atop", "object": "beneath" },
+    { "subject": "onto", "object": "off of" },
+    { "subject": "against", "object": "for" },
+    { "subject": "until", "object": "since" },
+    { "subject": "during", "object": "except for" },
+    { "subject": "despite", "object": "because of" },
+    { "subject": "preceding", "object": "following" },
+    { "subject": "pending", "object": "past" },
+    { "subject": "east of", "object": "west of" },
+    { "subject": "amid", "object": "apart from" },
+    { "subject": "aboard", "object": "ashore" },
+    { "subject": "contrary to", "object": "in accordance with" },
+    { "subject": "in favor of", "object": "against" },
+    { "subject": "in lieu of", "object": "in addition to" },
+    { "subject": "downstream of", "object": "upstream of" },
+    { "subject": "regardless of", "object": "depending on" }
+  ]
+}

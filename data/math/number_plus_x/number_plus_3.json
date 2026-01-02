@@ -1,0 +1,811 @@
+{
+    "name": "number plus 3",
+    "prompt_templates": [
+        "{} plus 3 is"
+    ],
+    "prompt_templates_zs": [
+        "When you add 3 to a {}, the result is ",
+        "If you take a {}, it plus 3 equals ",
+        "In mathematical terms, a {} plus 3 gives you "
+    ],
+    "properties": {
+        "relation_type": "mathematical",
+        "domain_name": "integers",
+        "range_name": "integers",
+        "symmetric": false
+    },
+    "samples": [
+        {
+            "subject": "-100",
+            "object": "-97"
+        },
+        {
+            "subject": "-99",
+            "object": "-96"
+        },
+        {
+            "subject": "-98",
+            "object": "-95"
+        },
+        {
+            "subject": "-97",
+            "object": "-94"
+        },
+        {
+            "subject": "-96",
+            "object": "-93"
+        },
+        {
+            "subject": "-95",
+            "object": "-92"
+        },
+        {
+            "subject": "-94",
+            "object": "-91"
+        },
+        {
+            "subject": "-93",
+            "object": "-90"
+        },
+        {
+            "subject": "-92",
+            "object": "-89"
+        },
+        {
+            "subject": "-91",
+            "object": "-88"
+        },
+        {
+            "subject": "-90",
+            "object": "-87"
+        },
+        {
+            "subject": "-89",
+            "object": "-86"
+        },
+        {
+            "subject": "-88",
+            "object": "-85"
+        },
+        {
+            "subject": "-87",
+            "object": "-84"
+        },
+        {
+            "subject": "-86",
+            "object": "-83"
+        },
+        {
+            "subject": "-85",
+            "object": "-82"
+        },
+        {
+            "subject": "-84",
+            "object": "-81"
+        },
+        {
+            "subject": "-83",
+            "object": "-80"
+        },
+        {
+            "subject": "-82",
+            "object": "-79"
+        },
+        {
+            "subject": "-81",
+            "object": "-78"
+        },
+        {
+            "subject": "-80",
+            "object": "-77"
+        },
+        {
+            "subject": "-79",
+            "object": "-76"
+        },
+        {
+            "subject": "-78",
+            "object": "-75"
+        },
+        {
+            "subject": "-77",
+            "object": "-74"
+        },
+        {
+            "subject": "-76",
+            "object": "-73"
+        },
+        {
+            "subject": "-75",
+            "object": "-72"
+        },
+        {
+            "subject": "-74",
+            "object": "-71"
+        },
+        {
+            "subject": "-73",
+            "object": "-70"
+        },
+        {
+            "subject": "-72",
+            "object": "-69"
+        },
+        {
+            "subject": "-71",
+            "object": "-68"
+        },
+        {
+            "subject": "-70",
+            "object": "-67"
+        },
+        {
+            "subject": "-69",
+            "object": "-66"
+        },
+        {
+            "subject": "-68",
+            "object": "-65"
+        },
+        {
+            "subject": "-67",
+            "object": "-64"
+        },
+        {
+            "subject": "-66",
+            "object": "-63"
+        },
+        {
+            "subject": "-65",
+            "object": "-62"
+        },
+        {
+            "subject": "-64",
+            "object": "-61"
+        },
+        {
+            "subject": "-63",
+            "object": "-60"
+        },
+        {
+            "subject": "-62",
+            "object": "-59"
+        },
+        {
+            "subject": "-61",
+            "object": "-58"
+        },
+        {
+            "subject": "-60",
+            "object": "-57"
+        },
+        {
+            "subject": "-59",
+            "object": "-56"
+        },
+        {
+            "subject": "-58",
+            "object": "-55"
+        },
+        {
+            "subject": "-57",
+            "object": "-54"
+        },
+        {
+            "subject": "-56",
+            "object": "-53"
+        },
+        {
+            "subject": "-55",
+            "object": "-52"
+        },
+        {
+            "subject": "-54",
+            "object": "-51"
+        },
+        {
+            "subject": "-53",
+            "object": "-50"
+        },
+        {
+            "subject": "-52",
+            "object": "-49"
+        },
+        {
+            "subject": "-51",
+            "object": "-48"
+        },
+        {
+            "subject": "-50",
+            "object": "-47"
+        },
+        {
+            "subject": "-49",
+            "object": "-46"
+        },
+        {
+            "subject": "-48",
+            "object": "-45"
+        },
+        {
+            "subject": "-47",
+            "object": "-44"
+        },
+        {
+            "subject": "-46",
+            "object": "-43"
+        },
+        {
+            "subject": "-45",
+            "object": "-42"
+        },
+        {
+            "subject": "-44",
+            "object": "-41"
+        },
+        {
+            "subject": "-43",
+            "object": "-40"
+        },
+        {
+            "subject": "-42",
+            "object": "-39"
+        },
+        {
+            "subject": "-41",
+            "object": "-38"
+        },
+        {
+            "subject": "-40",
+            "object": "-37"
+        },
+        {
+            "subject": "-39",
+            "object": "-36"
+        },
+        {
+            "subject": "-38",
+            "object": "-35"
+        },
+        {
+            "subject": "-37",
+            "object": "-34"
+        },
+        {
+            "subject": "-36",
+            "object": "-33"
+        },
+        {
+            "subject": "-35",
+            "object": "-32"
+        },
+        {
+            "subject": "-34",
+            "object": "-31"
+        },
+        {
+            "subject": "-33",
+            "object": "-30"
+        },
+        {
+            "subject": "-32",
+            "object": "-29"
+        },
+        {
+            "subject": "-31",
+            "object": "-28"
+        },
+        {
+            "subject": "-30",
+            "object": "-27"
+        },
+        {
+            "subject": "-29",
+            "object": "-26"
+        },
+        {
+            "subject": "-28",
+            "object": "-25"
+        },
+        {
+            "subject": "-27",
+            "object": "-24"
+        },
+        {
+            "subject": "-26",
+            "object": "-23"
+        },
+        {
+            "subject": "-25",
+            "object": "-22"
+        },
+        {
+            "subject": "-24",
+            "object": "-21"
+        },
+        {
+            "subject": "-23",
+            "object": "-20"
+        },
+        {
+            "subject": "-22",
+            "object": "-19"
+        },
+        {
+            "subject": "-21",
+            "object": "-18"
+        },
+        {
+            "subject": "-20",
+            "object": "-17"
+        },
+        {
+            "subject": "-19",
+            "object": "-16"
+        },
+        {
+            "subject": "-18",
+            "object": "-15"
+        },
+        {
+            "subject": "-17",
+            "object": "-14"
+        },
+        {
+            "subject": "-16",
+            "object": "-13"
+        },
+        {
+            "subject": "-15",
+            "object": "-12"
+        },
+        {
+            "subject": "-14",
+            "object": "-11"
+        },
+        {
+            "subject": "-13",
+            "object": "-10"
+        },
+        {
+            "subject": "-12",
+            "object": "-9"
+        },
+        {
+            "subject": "-11",
+            "object": "-8"
+        },
+        {
+            "subject": "-10",
+            "object": "-7"
+        },
+        {
+            "subject": "-9",
+            "object": "-6"
+        },
+        {
+            "subject": "-8",
+            "object": "-5"
+        },
+        {
+            "subject": "-7",
+            "object": "-4"
+        },
+        {
+            "subject": "-6",
+            "object": "-3"
+        },
+        {
+            "subject": "-5",
+            "object": "-2"
+        },
+        {
+            "subject": "-4",
+            "object": "-1"
+        },
+        {
+            "subject": "-3",
+            "object": "0"
+        },
+        {
+            "subject": "-2",
+            "object": "1"
+        },
+        {
+            "subject": "-1",
+            "object": "2"
+        },
+        {
+            "subject": "0",
+            "object": "3"
+        },
+        {
+            "subject": "1",
+            "object": "4"
+        },
+        {
+            "subject": "2",
+            "object": "5"
+        },
+        {
+            "subject": "3",
+            "object": "6"
+        },
+        {
+            "subject": "4",
+            "object": "7"
+        },
+        {
+            "subject": "5",
+            "object": "8"
+        },
+        {
+            "subject": "6",
+            "object": "9"
+        },
+        {
+            "subject": "7",
+            "object": "10"
+        },
+        {
+            "subject": "8",
+            "object": "11"
+        },
+        {
+            "subject": "9",
+            "object": "12"
+        },
+        {
+            "subject": "10",
+            "object": "13"
+        },
+        {
+            "subject": "11",
+            "object": "14"
+        },
+        {
+            "subject": "12",
+            "object": "15"
+        },
+        {
+            "subject": "13",
+            "object": "16"
+        },
+        {
+            "subject": "14",
+            "object": "17"
+        },
+        {
+            "subject": "15",
+            "object": "18"
+        },
+        {
+            "subject": "16",
+            "object": "19"
+        },
+        {
+            "subject": "17",
+            "object": "20"
+        },
+        {
+            "subject": "18",
+            "object": "21"
+        },
+        {
+            "subject": "19",
+            "object": "22"
+        },
+        {
+            "subject": "20",
+            "object": "23"
+        },
+        {
+            "subject": "21",
+            "object": "24"
+        },
+        {
+            "subject": "22",
+            "object": "25"
+        },
+        {
+            "subject": "23",
+            "object": "26"
+        },
+        {
+            "subject": "24",
+            "object": "27"
+        },
+        {
+            "subject": "25",
+            "object": "28"
+        },
+        {
+            "subject": "26",
+            "object": "29"
+        },
+        {
+            "subject": "27",
+            "object": "30"
+        },
+        {
+            "subject": "28",
+            "object": "31"
+        },
+        {
+            "subject": "29",
+            "object": "32"
+        },
+        {
+            "subject": "30",
+            "object": "33"
+        },
+        {
+            "subject": "31",
+            "object": "34"
+        },
+        {
+            "subject": "32",
+            "object": "35"
+        },
+        {
+            "subject": "33",
+            "object": "36"
+        },
+        {
+            "subject": "34",
+            "object": "37"
+        },
+        {
+            "subject": "35",
+            "object": "38"
+        },
+        {
+            "subject": "36",
+            "object": "39"
+        },
+        {
+            "subject": "37",
+            "object": "40"
+        },
+        {
+            "subject": "38",
+            "object": "41"
+        },
+        {
+            "subject": "39",
+            "object": "42"
+        },
+        {
+            "subject": "40",
+            "object": "43"
+        },
+        {
+            "subject": "41",
+            "object": "44"
+        },
+        {
+            "subject": "42",
+            "object": "45"
+        },
+        {
+            "subject": "43",
+            "object": "46"
+        },
+        {
+            "subject": "44",
+            "object": "47"
+        },
+        {
+            "subject": "45",
+            "object": "48"
+        },
+        {
+            "subject": "46",
+            "object": "49"
+        },
+        {
+            "subject": "47",
+            "object": "50"
+        },
+        {
+            "subject": "48",
+            "object": "51"
+        },
+        {
+            "subject": "49",
+            "object": "52"
+        },
+        {
+            "subject": "50",
+            "object": "53"
+        },
+        {
+            "subject": "51",
+            "object": "54"
+        },
+        {
+            "subject": "52",
+            "object": "55"
+        },
+        {
+            "subject": "53",
+            "object": "56"
+        },
+        {
+            "subject": "54",
+            "object": "57"
+        },
+        {
+            "subject": "55",
+            "object": "58"
+        },
+        {
+            "subject": "56",
+            "object": "59"
+        },
+        {
+            "subject": "57",
+            "object": "60"
+        },
+        {
+            "subject": "58",
+            "object": "61"
+        },
+        {
+            "subject": "59",
+            "object": "62"
+        },
+        {
+            "subject": "60",
+            "object": "63"
+        },
+        {
+            "subject": "61",
+            "object": "64"
+        },
+        {
+            "subject": "62",
+            "object": "65"
+        },
+        {
+            "subject": "63",
+            "object": "66"
+        },
+        {
+            "subject": "64",
+            "object": "67"
+        },
+        {
+            "subject": "65",
+            "object": "68"
+        },
+        {
+            "subject": "66",
+            "object": "69"
+        },
+        {
+            "subject": "67",
+            "object": "70"
+        },
+        {
+            "subject": "68",
+            "object": "71"
+        },
+        {
+            "subject": "69",
+            "object": "72"
+        },
+        {
+            "subject": "70",
+            "object": "73"
+        },
+        {
+            "subject": "71",
+            "object": "74"
+        },
+        {
+            "subject": "72",
+            "object": "75"
+        },
+        {
+            "subject": "73",
+            "object": "76"
+        },
+        {
+            "subject": "74",
+            "object": "77"
+        },
+        {
+            "subject": "75",
+            "object": "78"
+        },
+        {
+            "subject": "76",
+            "object": "79"
+        },
+        {
+            "subject": "77",
+            "object": "80"
+        },
+        {
+            "subject": "78",
+            "object": "81"
+        },
+        {
+            "subject": "79",
+            "object": "82"
+        },
+        {
+            "subject": "80",
+            "object": "83"
+        },
+        {
+            "subject": "81",
+            "object": "84"
+        },
+        {
+            "subject": "82",
+            "object": "85"
+        },
+        {
+            "subject": "83",
+            "object": "86"
+        },
+        {
+            "subject": "84",
+            "object": "87"
+        },
+        {
+            "subject": "85",
+            "object": "88"
+        },
+        {
+            "subject": "86",
+            "object": "89"
+        },
+        {
+            "subject": "87",
+            "object": "90"
+        },
+        {
+            "subject": "88",
+            "object": "91"
+        },
+        {
+            "subject": "89",
+            "object": "92"
+        },
+        {
+            "subject": "90",
+            "object": "93"
+        },
+        {
+            "subject": "91",
+            "object": "94"
+        },
+        {
+            "subject": "92",
+            "object": "95"
+        },
+        {
+            "subject": "93",
+            "object": "96"
+        },
+        {
+            "subject": "94",
+            "object": "97"
+        },
+        {
+            "subject": "95",
+            "object": "98"
+        },
+        {
+            "subject": "96",
+            "object": "99"
+        },
+        {
+            "subject": "97",
+            "object": "100"
+        }
+    ]
+}

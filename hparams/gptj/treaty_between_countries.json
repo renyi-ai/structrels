@@ -1,0 +1,9 @@
+{
+    "model_name": "gptj",
+    "relation_name": "treaty between countries",
+    "h_layer": 12,
+    "beta": 1.5,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 10
+}

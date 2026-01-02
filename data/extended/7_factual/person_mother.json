@@ -1,0 +1,435 @@
+{
+    "name": "person mother",
+    "prompt_templates": [
+        "{}'s mother is named"
+    ],
+    "prompt_templates_zs": [
+        "Name of mother of {} is",
+        "Who is {}'s mother? Their mother is named",
+        "{}'s mother is named"
+    ],
+    "properties": {
+        "relation_type": "factual",
+        "domain_name": "person",
+        "range_name": "person",
+        "symmetric": false
+    },
+    "samples": [
+        {
+            "subject": "Drake",
+            "object": "Sandi Graham"
+        },
+        {
+            "subject": "Ariana Grande",
+            "object": "Joan Grande"
+        },
+        {
+            "subject": "Rihanna",
+            "object": "Monica Braithwaite"
+        },
+        {
+            "subject": "Will Smith",
+            "object": "Caroline Bright"
+        },
+        {
+            "subject": "Prince William",
+            "object": "Princess Diana"
+        },
+        {
+            "subject": "Prince Harry",
+            "object": "Princess Diana"
+        },
+        {
+            "subject": "Franklin D. Roosevelt",
+            "object": "Sara Ann Delano"
+        },
+        {
+            "subject": "Queen Elizabeth II",
+            "object": "Queen Elizabeth The Queen Mother"
+        },
+        {
+            "subject": "Charles, Prince of Wales",
+            "object": "Queen Elizabeth II"
+        },
+        {
+            "subject": "Princess Margaret",
+            "object": "Queen Elizabeth The Queen Mother"
+        },
+        {
+            "subject": "Prince Philip",
+            "object": "Princess Alice of Battenberg"
+        },
+        {
+            "subject": "Prince Edward, Earl of Wessex",
+            "object": "Queen Elizabeth II"
+        },
+        {
+            "subject": "King George VI",
+            "object": "Queen Mary"
+        },
+        {
+            "subject": "Prince George of Cambridge",
+            "object": "Kate Middleton"
+        },
+        {
+            "subject": "Prince Louis of Cambridge",
+            "object": "Kate Middleton"
+        },
+        {
+            "subject": "Princess Charlotte of Cambridge",
+            "object": "Kate Middleton"
+        },
+        {
+            "subject": "Archie Mountbatten-Windsor",
+            "object": "Meghan Markle"
+        },
+        {
+            "subject": "Lilibet 'Lili' Diana Mountbatten-Windsor",
+            "object": "Meghan Markle"
+        },
+        {
+            "subject": "J.K. Rowling",
+            "object": "Anne Volant Rowling"
+        },
+        {
+            "subject": "Peter Paul Rubens",
+            "object": "Maria Pypelinckx"
+        },
+        {
+            "subject": "Madonna",
+            "object": "Madonna Louise Fortin"
+        },
+        {
+            "subject": "Pablo Picasso",
+            "object": "Maria Picasso y Lopez"
+        },
+        {
+            "subject": "Lady Gaga",
+            "object": "Cynthia Germanotta"
+        },
+        {
+            "subject": "Rembrandt",
+            "object": "Neeltje Willemsdr. Zuytbrouck"
+        },
+        {
+            "subject": "Vladimir Putin",
+            "object": "Maria Ivanovna Shelomova"
+        },
+        {
+            "subject": "Anthony van Dyck",
+            "object": "Maria Cuypers"
+        },
+        {
+            "subject": "Michael Jackson",
+            "object": "Katherine Jackson"
+        },
+        {
+            "subject": "William Shakespeare",
+            "object": "Mary Shakespeare"
+        },
+        {
+            "subject": "Albrecht D\u00fcrer",
+            "object": "Barbara D\u00fcrer"
+        },
+        {
+            "subject": "Vincent van Gogh",
+            "object": "Anna Carbentus van Gogh"
+        },
+        {
+            "subject": "Aretha Franklin",
+            "object": "Barbara Siggers Franklin"
+        },
+        {
+            "subject": "Albert Einstein",
+            "object": "Pauline Koch"
+        },
+        {
+            "subject": "Leonardo da Vinci",
+            "object": "Caterina di Meo Lippi"
+        },
+        {
+            "subject": "Adolf Hitler",
+            "object": "Klara Hitler"
+        },
+        {
+            "subject": "Johann Wolfgang von Goethe",
+            "object": "Catharina Elisabeth Goethe"
+        },
+        {
+            "subject": "Elizabeth II",
+            "object": "Queen Elizabeth, The Queen Mother"
+        },
+        {
+            "subject": "Leo Tolstoy",
+            "object": "Mariya Volkonskaya"
+        },
+        {
+            "subject": "Taylor Swift",
+            "object": "Andrea Finlay"
+        },
+        {
+            "subject": "Donald Trump",
+            "object": "Mary Anne MacLeod Trump"
+        },
+        {
+            "subject": "Jennifer Lopez",
+            "object": "Guadalupe Rodriguez"
+        },
+        {
+            "subject": "Napoleon",
+            "object": "Maria-Letizia Bonaparte"
+        },
+        {
+            "subject": "Paul Gauguin",
+            "object": "Aline Chazal"
+        },
+        {
+            "subject": "Camille Pissarro",
+            "object": "Rachel Pissarro"
+        },
+        {
+            "subject": "Beyonc\u00e9",
+            "object": "Tina Knowles"
+        },
+        {
+            "subject": "Victor Hugo",
+            "object": "Sophie Tr\u00e9buchet"
+        },
+        {
+            "subject": "Britney Spears",
+            "object": "Lynne Spears"
+        },
+        {
+            "subject": "Barack Obama",
+            "object": "Stanley Ann Dunham"
+        },
+        {
+            "subject": "Cher",
+            "object": "Georgia Holt"
+        },
+        {
+            "subject": "Jesus",
+            "object": "Virgin Mary"
+        },
+        {
+            "subject": "Lucas Cranach the Elder",
+            "object": "Barbara H\u00fcbner"
+        },
+        {
+            "subject": "Michelangelo",
+            "object": "Francesca di Neri del Miniato Siena"
+        },
+        {
+            "subject": "Marilyn Monroe",
+            "object": "Gladys Monroe"
+        },
+        {
+            "subject": "Wolfgang Amadeus Mozart",
+            "object": "Anna Maria Mozart"
+        },
+        {
+            "subject": "Ludwig van Beethoven",
+            "object": "Maria Magdalena van Beethoven"
+        },
+        {
+            "subject": "Katy Perry",
+            "object": "Mary Perry"
+        },
+        {
+            "subject": "Johann Sebastian Bach",
+            "object": "Maria Elisabeth L\u00e4mmerhirt"
+        },
+        {
+            "subject": "Charles Darwin",
+            "object": "Susannah Darwin"
+        },
+        {
+            "subject": "Paul C\u00e9zanne",
+            "object": "Anne Elisabeth Aubert"
+        },
+        {
+            "subject": "Francisco de Goya",
+            "object": "Gracia de Lucientes y Salvador"
+        },
+        {
+            "subject": "Charles Dickens",
+            "object": "Elizabeth Dickens"
+        },
+        {
+            "subject": "Joseph Stalin",
+            "object": "Keke Geladze"
+        },
+        {
+            "subject": "Voltaire",
+            "object": "Marguerite d\u2019Aumard"
+        },
+        {
+            "subject": "Plato",
+            "object": "Perictione"
+        },
+        {
+            "subject": "Salvador Dal\u00ed",
+            "object": "Felipa Dom\u00e8nech i Ferr\u00e9s"
+        },
+        {
+            "subject": "John Lennon",
+            "object": "Julia Lennon"
+        },
+        {
+            "subject": "Dante Alighieri",
+            "object": "Bella degli Abati"
+        },
+        {
+            "subject": "Andy Warhol",
+            "object": "Julia Warhola"
+        },
+        {
+            "subject": "L. Frank Baum",
+            "object": "Cynthia Ann Stanton"
+        },
+        {
+            "subject": "Shania Twain",
+            "object": "Sharron Morrison"
+        },
+        {
+            "subject": "Whitney Houston",
+            "object": "Cissy Houston"
+        },
+        {
+            "subject": "Edgar Allan Poe",
+            "object": "Elizabeth \"Eliza\" Poe"
+        },
+        {
+            "subject": "Lewis Carroll",
+            "object": "Frances Jane Lutwidge"
+        },
+        {
+            "subject": "Walt Disney",
+            "object": "Flora Call Disney"
+        },
+        {
+            "subject": "\u00c9douard Manet",
+            "object": "Eug\u00e9nie-D\u00e9sir\u00e9e Fournier"
+        },
+        {
+            "subject": "Angelina Jolie",
+            "object": "Marcheline Bertrand"
+        },
+        {
+            "subject": "Jane Fonda",
+            "object": "Frances Ford Seymour"
+        },
+        {
+            "subject": "Bob Dylan",
+            "object": "Beatrice Stone"
+        },
+        {
+            "subject": "William Blake",
+            "object": "Catherine Hermitage"
+        },
+        {
+            "subject": "Janet Jackson",
+            "object": "Katherine Jackson"
+        },
+        {
+            "subject": "Vladimir Lenin",
+            "object": "Maria Ulyanova"
+        },
+        {
+            "subject": "Ursula K. Le Guin",
+            "object": "Theodora Kroeber"
+        },
+        {
+            "subject": "Stephen Hawking",
+            "object": "Isobel Eileen Hawking"
+        },
+        {
+            "subject": "Martin Luther",
+            "object": "Margaretha Luther"
+        },
+        {
+            "subject": "Alicia Keys",
+            "object": "Teresa Augello"
+        },
+        {
+            "subject": "Alexander Pushkin",
+            "object": "Nadezhda Pushkina"
+        },
+        {
+            "subject": "Marlene Dietrich",
+            "object": "Wilhelmina Elisabeth Jos\u00e9phine Felsing"
+        },
+        {
+            "subject": "Gottfried Wilhelm Leibniz",
+            "object": "Catharina Schmuck"
+        },
+        {
+            "subject": "Dolly Parton",
+            "object": "Avie Lee Parton"
+        },
+        {
+            "subject": "Avril Lavigne",
+            "object": "Judith Rosanne Loshaw"
+        },
+        {
+            "subject": "Arthur Conan Doyle",
+            "object": "Mary Foley"
+        },
+        {
+            "subject": "Hans Christian Andersen",
+            "object": "Anne Marie Andersdatter"
+        },
+        {
+            "subject": "J. K. Rowling",
+            "object": "Anne Rowling"
+        },
+        {
+            "subject": "Paul McCartney",
+            "object": "Mary McCartney"
+        },
+        {
+            "subject": "Angela Merkel",
+            "object": "Herlind Kasner"
+        },
+        {
+            "subject": "Woody Allen",
+            "object": "Nettie K\u00f6nigsberg"
+        },
+        {
+            "subject": "John Paul II",
+            "object": "Emilia Wojty\u0142a"
+        },
+        {
+            "subject": "Benedict XVI",
+            "object": "Maria Peintner"
+        },
+        {
+            "subject": "Jean Cocteau",
+            "object": "Eug\u00e9nie Cocteau"
+        },
+        {
+            "subject": "Fyodor Dostoyevsky",
+            "object": "Maria Fiodorovna Dosto\u00efevska\u00efa"
+        },
+        {
+            "subject": "Liza Minnelli",
+            "object": "Judy Garland"
+        },
+        {
+            "subject": "John F. Kennedy",
+            "object": "Rose Kennedy"
+        },
+        {
+            "subject": "Julius Caesar",
+            "object": "Aurelia"
+        },
+        {
+            "subject": "Oscar Wilde",
+            "object": "Jane Wilde"
+        },
+        {
+            "subject": "Auguste Rodin",
+            "object": "Marie Cheffer"
+        }
+    ]
+}

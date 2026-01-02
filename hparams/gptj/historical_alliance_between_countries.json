@@ -1,0 +1,9 @@
+{
+    "model_name": "gptj",
+    "relation_name": "historical alliance between countries",
+    "h_layer": 9,
+    "beta": 1.5,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 9
+}

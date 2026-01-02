@@ -1,0 +1,9 @@
+{
+    "model_name": "gptj",
+    "relation_name": "major port city of country",
+    "h_layer": 8,
+    "beta": 2.0833333333333335,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 6
+}

@@ -1,0 +1,603 @@
+{
+    "name": "person plays position in sport",
+    "prompt_templates": [
+        "{} plays in the position of a",
+        "In their sport, {} plays as a"
+    ],
+    "prompt_templates_zs": [
+        "Which position does {} play? They play as a",
+        "In their sport, {} plays in the position of a"
+    ],
+    "properties": {
+        "relation_type": "factual",
+        "domain_name": "person",
+        "range_name": "sport position",
+        "symmetric": false
+    },
+    "samples": [
+        {
+            "subject": "Percy Snow",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Pantelis Kafes",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Ruud Gullit",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Elrio van Heerden",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Lars Ricken",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Tuukka Rask",
+            "object": "goaltender"
+        },
+        {
+            "subject": "Karl Mecklenburg",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Iosif Rotariu",
+            "object": "midfielder"
+        },
+        {
+            "subject": "John Navarre",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Thurman Munson",
+            "object": "catcher"
+        },
+        {
+            "subject": "Evan Dimas Darmono",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Jonathan Osorio",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Martina Voss-Tecklenburg",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Nigel de Jong",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Corky Miller",
+            "object": "catcher"
+        },
+        {
+            "subject": "Antonio Valencia",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Tarvaris Jackson",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Erik Ersberg",
+            "object": "goaltender"
+        },
+        {
+            "subject": "Kamohelo Mokotjo",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Florent Cuvelier",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Daniel Royer",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Nick Greisen",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Massimo Ficcadenti",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Frank Brimsek",
+            "object": "goaltender"
+        },
+        {
+            "subject": "Mark Visentin",
+            "object": "goaltender"
+        },
+        {
+            "subject": "Damon Huard",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Scot Brantley",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Chase Clement",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Mark Herrmann",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Lalrindika Ralte",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Gianluigi Lentini",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Martin Brodeur",
+            "object": "goaltender"
+        },
+        {
+            "subject": "Casey Matthews",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Trey DePriest",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Jiloan Hamad",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Graham Dorrans",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Jonas Mouton",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Stan Gelbaugh",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Enrico Cucchi",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Teddy Bridgewater",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Thomas von Heesen",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Glenn Hoddle",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Bobby Bell",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Marco Verratti",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Andrew Jacobson",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Robert Griffin III",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Jonathan Goff",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Norm Maracle",
+            "object": "goaltender"
+        },
+        {
+            "subject": "Manuel Ruiz Sosa",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Ivan Gudelj",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Bryan Hughes",
+            "object": "midfielder"
+        },
+        {
+            "subject": "George Mihai Florescu",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Graham Barrow",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Ricardo Faty",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Marcus Mariota",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Devan Dubnyk",
+            "object": "goaltender"
+        },
+        {
+            "subject": "Gianluca Gaudino",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Andreas Ivanschitz",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Clete Thomas",
+            "object": "outfielder"
+        },
+        {
+            "subject": "Andy Moog",
+            "object": "goaltender"
+        },
+        {
+            "subject": "Conor Thomas",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Wesley Sneijder",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Corey Hirsch",
+            "object": "goaltender"
+        },
+        {
+            "subject": "Drew Stanton",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Angelos Basinas",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Johnny Lujack",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Pascal Leclaire",
+            "object": "goaltender"
+        },
+        {
+            "subject": "Wayne Corden",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Magdi Abdelghani",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Ricardo Ribeiro Fernandes",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Jonathan Quinn",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Browning Nagle",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Earl Morrall",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Gilles Villemure",
+            "object": "goaltender"
+        },
+        {
+            "subject": "Mike Liut",
+            "object": "goaltender"
+        },
+        {
+            "subject": "Gabriel Heinze",
+            "object": "defender"
+        },
+        {
+            "subject": "Joe Torre",
+            "object": "catcher"
+        },
+        {
+            "subject": "Lars Bender",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Jim Magilton",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Fabio Pecchia",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Jim Hardy",
+            "object": "quarterback"
+        },
+        {
+            "subject": "John Elway",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Eugeneson Lyngdoh",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Reto Berra",
+            "object": "goaltender"
+        },
+        {
+            "subject": "Michael Garnett",
+            "object": "goaltender"
+        },
+        {
+            "subject": "Thomas \"Hollywood\" Henderson",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Kevin Siegrist",
+            "object": "pitcher"
+        },
+        {
+            "subject": "Joe Magrane",
+            "object": "pitcher"
+        },
+        {
+            "subject": "Mike Garcia",
+            "object": "pitcher"
+        },
+        {
+            "subject": "Wesley Lopes Beltrame",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Jordon Dizon",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Alberto Rivera Pizarro",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Lerin Duarte",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Derrick Brooks",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Joey Gathright",
+            "object": "outfielder"
+        },
+        {
+            "subject": "Bob Allison",
+            "object": "outfielder"
+        },
+        {
+            "subject": "Francis Coquelin",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Gary Kubiak",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Glenn Foley",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Marcus Marek",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Jamal Mahmoud",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Glen Trifiro",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Chandler Harnish",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Johan Gastien",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Mike Stratton",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Markus Halsti",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Claudio Marchisio",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Dan Morgan",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Mario Lessard",
+            "object": "goaltender"
+        },
+        {
+            "subject": "Pontus Wernbloom",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Odise Roshi",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Tim Hiller",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Ron Jaworski",
+            "object": "quarterback"
+        },
+        {
+            "subject": "D'Qwell Jackson",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Steven Nzonzi",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Francisco Liriano",
+            "object": "pitcher"
+        },
+        {
+            "subject": "Mo Lewis",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Edmondo Fabbri",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Giacomo Tedesco",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Ty Detmer",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Luca Vigiani",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Isaac Cuenca",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Kris Griffin",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Ray Nitschke",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Robert Marve",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Rich Gannon",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Ray Lewis",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Altin Lala",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Anders Limpar",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Mesut Bakkal",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Marc Fitzpatrick",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Daniel Gygax",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Buck Martinez",
+            "object": "catcher"
+        },
+        {
+            "subject": "Cory Wade",
+            "object": "pitcher"
+        },
+        {
+            "subject": "Ali Jabbari",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Taylor Heinicke",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Trevor Kidd",
+            "object": "goaltender"
+        },
+        {
+            "subject": "Derek Lowe",
+            "object": "pitcher"
+        },
+        {
+            "subject": "Konstantin Vassiljev",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Jussi Markkanen",
+            "object": "goaltender"
+        },
+        {
+            "subject": "Darren Murphy",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Frank Mobley",
+            "object": "forward"
+        },
+        {
+            "subject": "Miguel Jones",
+            "object": "midfielder"
+        },
+        {
+            "subject": "Kailee Wong",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Johnny Unitas",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Tommy Kramer",
+            "object": "quarterback"
+        }
+    ]
+}

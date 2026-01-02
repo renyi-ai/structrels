@@ -1,0 +1,9 @@
+{
+    "model_name": "neox",
+    "relation_name": "preposition antonym",
+    "h_layer": 6,
+    "beta": 3.75,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 8
+}

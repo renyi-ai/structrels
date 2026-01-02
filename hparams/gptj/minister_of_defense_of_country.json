@@ -1,0 +1,9 @@
+{
+    "model_name": "gptj",
+    "relation_name": "minister of defense of country",
+    "h_layer": 15,
+    "beta": 1.9166666666666667,
+    "rank": null,
+    "z_layer": -1,
+    "h_layer_edit": 6
+}
